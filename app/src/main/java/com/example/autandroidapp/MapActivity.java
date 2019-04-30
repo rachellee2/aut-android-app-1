@@ -38,74 +38,44 @@ public class MapActivity extends AppCompatActivity {
     private ViewPager mViewPager;
     
         @Override
-
     protected void onCreate(Bundle savedInstanceState) {
-
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_map);
-
-
 
         Intent intent = getIntent();
 
-
-
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-
         setSupportActionBar(toolbar);
-
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         // Create the adapter that will return a fragment for each of the three
-
         // primary sections of the activity.
-
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
 
-
-
         // Set up the ViewPager with the sections adapter.
-
         mViewPager = (ViewPager) findViewById(R.id.container);
-
         mViewPager.setAdapter(mSectionsPagerAdapter);
-
-
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
 
-
-
         mViewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
-
         tabLayout.addOnTabSelectedListener(new TabLayout.ViewPagerOnTabSelectedListener(mViewPager));
 
+        // Sets the tab that shows first on the map menu is opened to second tab (city campus map)
         mViewPager.setCurrentItem(1, false);
 
-
-
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-
         fab.setOnClickListener(new View.OnClickListener() {
 
             @Override
 
             public void onClick(View view) {
-
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-
                         .setAction("Action", null).show();
-
             }
 
         });
-
-
-
     }
-
-
 
 // THREE DOT INDICATOR AKK, OVERFLOW MENU-----------------------------------------------------------
 //    @Override
@@ -155,6 +125,10 @@ public class MapActivity extends AppCompatActivity {
             return fragment;
         }
 
+        /**
+         * A method that displays selected fragment using a switch statement
+         * It takes in ARG_SECTION_NUMBER (tab number) and displays corresponding campus image
+         */
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
