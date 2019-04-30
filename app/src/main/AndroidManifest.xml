@@ -1,97 +1,173 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
     xmlns:tools="http://schemas.android.com/tools"
+
     package="com.example.autandroidapp">
 
+
+
     <application
+
         android:allowBackup="true"
+
         android:icon="@mipmap/ic_launcher"
+
         android:label="@string/app_name"
+
         android:roundIcon="@mipmap/ic_launcher_round"
+
         android:supportsRtl="true"
+
         android:theme="@style/AppTheme"
+
         tools:ignore="GoogleAppIndexingWarning">
+
         <activity
+
             android:name=".CalendarActivity"
- master
+
             android:label="@string/CALENDERTITLE"
+
             android:parentActivityName=".MainActivity"
+
             android:theme="@style/AppTheme.NoActionBar" />
+
         <activity
+
             android:name=".MapActivity"
+
             android:label="@string/MAPTITLE"
+
             android:parentActivityName=".MainActivity"
-=======
-            android:parentActivityName=".MainActivity"
-            android:label="@string/title_activity_calendar"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity
-            android:name=".MapActivity"
-            android:parentActivityName=".MainActivity"
-            android:label="@string/title_activity_map"
- Development
+
             android:theme="@style/AppTheme.NoActionBar" />
+
         <activity
+
             android:name=".services_button"
+
             android:label="@string/AUTSERVICES"
+
             android:parentActivityName=".MainActivity"
+
             tools:ignore="DuplicateActivity">
+
             <meta-data
+
                 android:name="android.support.PARENT_ACTIVITY"
+
                 android:value="com.example.autandroidapp.MainActivity" />
+
         </activity>
+
         <activity
+
             android:name=".help_button"
+
             android:label="@string/HELPTITLE"
+
             android:parentActivityName=".MainActivity"
+
             tools:ignore="DuplicateActivity">
+
             <meta-data
+
                 android:name="android.support.PARENT_ACTIVITY"
+
                 android:value="com.example.autandroidapp.MainActivity" />
+
         </activity>
+
         <activity
+
             android:name=".courses_button"
+
             android:label="@string/COURSESTITLE"
+
             android:parentActivityName=".MainActivity"
+
             tools:ignore="DuplicateActivity">
+
             <meta-data
+
                 android:name="android.support.PARENT_ACTIVITY"
+
                 android:value="com.example.autandroidapp.MainActivity" />
+
         </activity>
+
         <activity
+
             android:name=".chatbot_button"
+
             android:label="@string/CHATBOTTITLE"
+
             android:parentActivityName=".MainActivity"
+
             tools:ignore="DuplicateActivity">
+
             <meta-data
+
                 android:name="android.support.PARENT_ACTIVITY"
+
                 android:value="com.example.autandroidapp.MainActivity" />
+
         </activity>
+
         <activity
+
             android:name=".art_button"
+
             android:label="@string/ART"
+
             android:parentActivityName=".courses_button"
+
             tools:ignore="DuplicateActivity">
+
             <meta-data
+
                 android:name="android.support.PARENT_ACTIVITY"
+
                 android:value="com.example.autandroidapp.courses_button" />
+
         </activity>
+
         <activity
+
             android:name=".architecture_button"
+
             android:label="@string/ARCHITECTURE"
+
             android:parentActivityName=".courses_button"
+
             tools:ignore="DuplicateActivity">
+
             <meta-data
+
                 android:name="android.support.PARENT_ACTIVITY"
+
                 android:value="com.example.autandroidapp.courses_button" />
+
         </activity>
+
         <activity android:name=".MainActivity">
+
             <intent-filter>
+
                 <action android:name="android.intent.action.MAIN" />
 
+
+
                 <category android:name="android.intent.category.LAUNCHER" />
+
             </intent-filter>
+
         </activity>
+
     </application>
+
+
 
 </manifest>
