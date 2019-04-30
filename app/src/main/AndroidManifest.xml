@@ -13,6 +13,7 @@
         tools:ignore="GoogleAppIndexingWarning">
         <activity
             android:name=".CalendarActivity"
+ master
             android:label="@string/CALENDERTITLE"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -20,6 +21,15 @@
             android:name=".MapActivity"
             android:label="@string/MAPTITLE"
             android:parentActivityName=".MainActivity"
+
+            android:parentActivityName=".MainActivity"
+            android:label="@string/title_activity_calendar"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".MapActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/title_activity_map"
+ Development
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".services_button"
