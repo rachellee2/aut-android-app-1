@@ -49,7 +49,8 @@ public class MapActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
  master
 
-
+=======
+     
  Development
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
