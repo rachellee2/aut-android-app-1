@@ -13,11 +13,13 @@
         tools:ignore="GoogleAppIndexingWarning">
         <activity
             android:name=".CalendarActivity"
-            android:label="@string/title_activity_calendar"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:label="@string/CALENDERTITLE"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".MapActivity"
-            android:label="@string/title_activity_map"
+            android:label="@string/MAPTITLE"
+            android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".services_button"
@@ -54,6 +56,24 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.autandroidapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".art_button"
+            android:label="@string/ART"
+            android:parentActivityName=".courses_button"
+            tools:ignore="DuplicateActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.autandroidapp.courses_button" />
+        </activity>
+        <activity
+            android:name=".architecture_button"
+            android:label="@string/ARCHITECTURE"
+            android:parentActivityName=".courses_button"
+            tools:ignore="DuplicateActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.autandroidapp.courses_button" />
         </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
