@@ -19,16 +19,16 @@ public class MapActivityLaunchTestWithNorthImage {
 
     @Rule
     public ActivityTestRule<MapActivity> mapActivityTestRule = new ActivityTestRule<MapActivity>(MapActivity.class);
-
     private MapActivity mapActivity = null;
 
+    // A method to get a map activity for testing
     @Before
     public void setUp() throws Exception {
         mapActivity = mapActivityTestRule.getActivity();
     }
 
     @Test
-    // Launching a mapActivity, with map images of city, north, and south campuses
+    // A method to test launching a mapActivity, with map images of north campus
     public void mapLaunch(){
         View view = mapActivity.findViewById(R.id.imageViewNorthCampus);
         assertNotNull(view);
