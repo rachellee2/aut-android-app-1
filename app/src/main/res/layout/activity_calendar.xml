@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     app:statusBarBackground="@color/statusBar"
+    android:background="@color/appTheme"
     tools:context=".CalendarActivity">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -38,13 +39,13 @@
             app:tabIndicatorColor="@color/appAccent">
 
             <com.google.android.material.tabs.TabItem
-                android:id="@+id/tabItem"
+                android:id="@+id/events"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/EVENTS" />
 
             <com.google.android.material.tabs.TabItem
-                android:id="@+id/tabItem2"
+                android:id="@+id/timetable"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/TIMETABLE" />

@@ -25,9 +25,16 @@ public class help_button extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void homeActivity(View view)
+    public void autcontactActivity(View view)
     {
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, autcontact_button.class);
         startActivity(intent);
     }
+
+    public void contactdevActivity(View view)
+    {
+        Intent intent = new Intent(this, contactdev_button.class);
+        startActivity(intent);
+    }
+
 }

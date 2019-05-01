@@ -43,6 +43,7 @@
                 android:id="@+id/childcare"
                 android:layout_width="302dp"
                 android:layout_height="60dp"
+                android:onClick="childcareActivity"
                 android:text="@string/CHILDCARE"
                 android:textStyle="bold" />
 
@@ -50,6 +51,7 @@
                 android:id="@+id/chinese"
                 android:layout_width="302dp"
                 android:layout_height="60dp"
+                android:onClick="chineseActivity"
                 android:text="@string/CHINESE"
                 android:textStyle="bold" />
 
@@ -57,6 +59,7 @@
                 android:id="@+id/counselling"
                 android:layout_width="302dp"
                 android:layout_height="60dp"
+                android:onClick="counsellingActivity"
                 android:text="@string/COUNSELLING"
                 android:textStyle="bold" />
 
@@ -64,6 +67,7 @@
                 android:id="@+id/disability"
                 android:layout_width="302dp"
                 android:layout_height="60dp"
+                android:onClick="disabilityActivity"
                 android:text="@string/DISABILITY"
                 android:textStyle="bold" />
 
@@ -71,6 +75,7 @@
                 android:id="@+id/athlete"
                 android:layout_width="302dp"
                 android:layout_height="60dp"
+                android:onClick="athleteActivity"
                 android:text="@string/ATHLETE"
                 android:textStyle="bold" />
 
@@ -78,6 +83,7 @@
                 android:id="@+id/careers"
                 android:layout_width="302dp"
                 android:layout_height="60dp"
+                android:onClick="careerActivity"
                 android:text="@string/CAREERS"
                 android:textStyle="bold" />
 
@@ -85,6 +91,7 @@
                 android:id="@+id/international"
                 android:layout_width="302dp"
                 android:layout_height="60dp"
+                android:onClick="internationalActivity"
                 android:text="@string/INTERNATIONAL"
                 android:textStyle="bold" />
 
@@ -92,6 +99,7 @@
                 android:id="@+id/rainbow"
                 android:layout_width="302dp"
                 android:layout_height="60dp"
+                android:onClick="rainbowActivity"
                 android:text="@string/RAINBOWSTUD"
                 android:textStyle="bold" />
 
@@ -99,6 +107,7 @@
                 android:id="@+id/maoristud"
                 android:layout_width="302dp"
                 android:layout_height="60dp"
+                android:onClick="maoristudActivity"
                 android:text="@string/MAORISTUD"
                 android:textStyle="bold" />
 
@@ -106,6 +115,7 @@
                 android:id="@+id/pacific"
                 android:layout_width="302dp"
                 android:layout_height="60dp"
+                android:onClick="pacificActivity"
                 android:text="@string/PACIFIC"
                 android:textStyle="bold" />
 
@@ -113,6 +123,7 @@
                 android:id="@+id/religious"
                 android:layout_width="302dp"
                 android:layout_height="60dp"
+                android:onClick="religiousActivity"
                 android:text="@string/RELIGIOUS"
                 android:textStyle="bold" />
 
@@ -120,6 +131,7 @@
                 android:id="@+id/studenthub"
                 android:layout_width="302dp"
                 android:layout_height="60dp"
+                android:onClick="studenthubActivity"
                 android:text="@string/STUDENTHUB"
                 android:textStyle="bold" />
 
@@ -127,6 +139,7 @@
                 android:id="@+id/studiesupport"
                 android:layout_width="302dp"
                 android:layout_height="60dp"
+                android:onClick="studiesupportActivity"
                 android:text="@string/STUDIESSUPPORT"
                 android:textStyle="bold" />
 
