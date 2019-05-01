@@ -6,9 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-
-import com.example.autandroidapp.*;
-
 public class courses_button extends AppCompatActivity {
 
     @Override
@@ -29,4 +26,6 @@ public class courses_button extends AppCompatActivity {
         Intent intent = new Intent(this, architecture_button.class);
         startActivity(intent);
     }
+
+
 }

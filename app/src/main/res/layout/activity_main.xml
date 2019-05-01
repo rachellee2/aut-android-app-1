@@ -8,7 +8,10 @@
     android:layout_height="match_parent"
     android:background="@color/appTheme"
     android:clickable="false"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://schemas.android.com/apk/res-auto
+http://schemas.android.com/apk/res/android ">
 
     <TextView
         android:id="@+id/aut"
