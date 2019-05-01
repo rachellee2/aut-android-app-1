@@ -2,6 +2,7 @@ package com.example.autandroidapp;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -13,5 +14,11 @@ public class law_button extends AppCompatActivity {
         setContentView(R.layout.activity_law_button);
 
         Intent intent = getIntent();
+    }
+
+    public void homeActivity(View view)
+    {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 }

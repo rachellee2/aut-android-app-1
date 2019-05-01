@@ -24,4 +24,10 @@ public class help_button extends AppCompatActivity {
         Intent intent = new Intent(this, faq_button.class);
         startActivity(intent);
     }
+
+    public void homeActivity(View view)
+    {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
 }
