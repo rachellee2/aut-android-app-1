@@ -1,9 +1,77 @@
 <resources>
-    <string name="app_name">AutAndroidApp</string>
+    <string name="app_name">AUT App</string>
+    <string name="home">HOME</string>
+    <string name="AUT">AUT</string>
+    <string name="UNIVERSITY">UNIVERSITY</string>
+    <string name="CHATBOT">CHATBOT</string>
+    <string name="SERVICES">SERVICES</string>
+    <string name="MAP">MAP</string>
+    <string name="COURSES">COURSES</string>
+    <string name="CALENDAR">CALENDAR</string>
+    <string name="HELP">HELP</string>
+    <string name="AUTSERVICES">AUT SERVICES</string>
+    <string name="CHATBOTTITLE">CHATBOT</string>
+    <string name="MAPTITLE">AUT CAMPUS MAPS</string>
+    <string name="COURSESTITLE">AUT COURSES</string>
+    <string name="CALENDERTITLE">CALENDAR</string>
+    <string name="TIMETABLE">YOUR TIMETABLE</string>
+    <string name="EVENTS">EVENTS</string>
+    <string name="HELPTITLE">HELP</string>
+    <string name="ARCHITECTURE">ARCHITECTURE</string>
+    <string name="ART">ART AND DESIGN</string>
+    <string name="BUSINESS">BUSINESS AND ECONOMICS</string>
+    <string name="CREATIVETECH">CREATIVE TECHNOLOGIES</string>
+    <string name="COMMUNICATION">COMMUNICATION STUDIES</string>
+    <string name="EDUCATION">EDUCATION</string>
+    <string name="ENGINEERING">ENGINEERING</string>
+    <string name="COMPSCI">COMPUTER SCIENCE</string>
+    <string name="MATH">MATHEMATICAL SCIENCE</string>
+    <string name="HEALTH">HEALTH SCIENCES</string>
+    <string name="TOURISM">HOSPITALITY, TOURISM AND EVENTS</string>
+    <string name="LANGUAGE">LANGUAGE AND CULTURE</string>
+    <string name="LAW">LAW</string>
+    <string name="SCIENCE">SCIENCE</string>
+    <string name="SOCIALSCI">SOCIAL SCIENCES AND PUBLIC POLICY</string>
+    <string name="SPORT">SPORT AND RECREATION</string>
+    <string name="MAORI">MAORI AND INDIGENOUS DEVELOPMENT</string>
+    <string name="STUDENTHUB">STUDENT HUB</string>
+    <string name="STUDIESSUPPORT">STUDIES SUPPORT</string>
+    <string name="DISABILITY">DISABILITY SUPPORT SERVICES</string>
+    <string name="INTERNATIONAL">INTERNATIONAL STUDENT SUPPORT</string>
+    <string name="COUNSELLING">COUNSELLING AND MENTAL HEALTH SUPPORT</string>
+    <string name="MEDICALCENTRE">CAMPUS MEDICAL CENTRES</string>
+    <string name="CHILDCARE">CHILDCARE CENTRES</string>
+    <string name="RAINBOWSTUD">LGBTTI+ RAINBOW STUDENTS</string>
+    <string name="ATHLETE">ELITE ATHLETE SUPPORT</string>
+    <string name="PACIFIC">PACIFIC STUDENT SUPPORT</string>
+    <string name="MAORISTUD">MAORI STUDENT SUPPORT</string>
+    <string name="CHINESE">CHINESE CENTRE</string>
+    <string name="RELIGIOUS">SPIRITUAL AND RELIGIOUS SUPPORT</string>
+    <string name="CAREERS">EMPLOYABILITY AND CAREER SERVICES</string>
+    <string name="FAQ">FAQs</string>
+    <string name="CONTACTDEV">CONTACT THE DEVELOPERS</string>
+    <string name="AUTCONTACT">AUT CONTACT INFORMATION</string>
+    <string name="title_activity_calendar_button">calendar_button</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="tab_north">NORTH</string>
+    <string name="tab_city">CITY</string>
+    <string name="tab_south">SOUTH</string>
+    <string name="title_activity_calendar">CalendarActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="title_activity_calendar2_button">calendar2_button</string>
+
+    <!-- Actionbar String-->
+    <string name="action_home">actionHome</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
 </resources>
