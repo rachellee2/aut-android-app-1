@@ -191,6 +191,7 @@
                 android:layout_width="306dp"
                 android:layout_height="60dp"
                 android:text="@string/SCIENCE"
+                android:textStyle="bold"
                 app:layout_constraintBottom_toTopOf="@+id/create"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"

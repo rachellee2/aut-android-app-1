@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">AUT App</string>
+    <string name="home">HOME</string>
+    <string name="AUT">AUT</string>
+    <string name="UNIVERSITY">UNIVERSITY</string>
     <string name="CHATBOT">CHATBOT</string>
     <string name="SERVICES">SERVICES</string>
     <string name="MAP">MAP</string>
@@ -11,9 +14,11 @@
     <string name="MAPTITLE">AUT CAMPUS MAPS</string>
     <string name="COURSESTITLE">AUT COURSES</string>
     <string name="CALENDERTITLE">CALENDAR</string>
+    <string name="TIMETABLE">YOUR TIMETABLE</string>
+    <string name="EVENTS">EVENTS</string>
     <string name="HELPTITLE">HELP</string>
     <string name="ARCHITECTURE">ARCHITECTURE</string>
-    <string name="ART">ART</string>
+    <string name="ART">ART AND DESIGN</string>
     <string name="BUSINESS">BUSINESS AND ECONOMICS</string>
     <string name="CREATIVETECH">CREATIVE TECHNOLOGIES</string>
     <string name="COMMUNICATION">COMMUNICATION STUDIES</string>
@@ -29,8 +34,23 @@
     <string name="SOCIALSCI">SOCIAL SCIENCES AND PUBLIC POLICY</string>
     <string name="SPORT">SPORT AND RECREATION</string>
     <string name="MAORI">MAORI AND INDIGENOUS DEVELOPMENT</string>
-    <string name="UNIVERSITY">UNIVERSITY</string>
-    <string name="AUT">AUT</string>
+    <string name="STUDENTHUB">STUDENT HUB</string>
+    <string name="STUDIESSUPPORT">STUDIES SUPPORT</string>
+    <string name="DISABILITY">DISABILITY SUPPORT SERVICES</string>
+    <string name="INTERNATIONAL">INTERNATIONAL STUDENT SUPPORT</string>
+    <string name="COUNSELLING">COUNSELLING AND MENTAL HEALTH SUPPORT</string>
+    <string name="MEDICALCENTRE">CAMPUS MEDICAL CENTRES</string>
+    <string name="CHILDCARE">CHILDCARE CENTRES</string>
+    <string name="RAINBOWSTUD">LGBTTI+ RAINBOW STUDENTS</string>
+    <string name="ATHLETE">ELITE ATHLETE SUPPORT</string>
+    <string name="PACIFIC">PACIFIC STUDENT SUPPORT</string>
+    <string name="MAORISTUD">MAORI STUDENT SUPPORT</string>
+    <string name="CHINESE">CHINESE CENTRE</string>
+    <string name="RELIGIOUS">SPIRITUAL AND RELIGIOUS SUPPORT</string>
+    <string name="CAREERS">EMPLOYABILITY AND CAREER SERVICES</string>
+    <string name="FAQ">FAQs</string>
+    <string name="CONTACTDEV">CONTACT THE DEVELOPERS</string>
+    <string name="AUTCONTACT">AUT CONTACT INFORMATION</string>
     <string name="title_activity_calendar_button">calendar_button</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>

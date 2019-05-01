@@ -10,7 +10,7 @@ public class compsci_button extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_architecture_button);
+        setContentView(R.layout.activity_compsci_button);
 
         Intent intent = getIntent();
     }
