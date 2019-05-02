@@ -129,8 +129,7 @@ public class CalendarActivity extends AppCompatActivity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_calendar, container, false);
-            TextView textView = (TextView) rootView.findViewById(R.id.section_label);
-            textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
+
             return rootView;
         }
     }
@@ -157,6 +156,24 @@ public class CalendarActivity extends AppCompatActivity {
             // Show 3 total pages.
             return 2;
         }
+    }
+
+    public boolean onCreateOptionsMenu(Menu menu)
+    {
+        getMenuInflater().inflate(R.menu.main, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    public boolean onOptionsItemSelected(MenuItem item)
+    {
+        switch (item.getItemId())
+        {
+            case R.id.action_home:
+                Intent homePageIntent= new Intent(this, MainActivity.class);
+                this.startActivity(homePageIntent);
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
 }
