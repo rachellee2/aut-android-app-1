@@ -16,7 +16,7 @@ import static org.junit.Assert.*;
 
 public class architecture_buttonTest {
 
-    public ActivityTestRule<architecture_button> architectureTestRule = new ActivityTestRule<architecture_button>(architecture_button.class);
+    /*public ActivityTestRule<architecture_button> architectureTestRule = new ActivityTestRule<architecture_button>(architecture_button.class);
     private architecture_button mainActivity = null;
 //method to get architecture activity for testing
     @Before
@@ -34,5 +34,5 @@ public class architecture_buttonTest {
     @After
     public void tearDown() throws Exception {
         mainActivity = null;
-    }
+    }*/
 }
