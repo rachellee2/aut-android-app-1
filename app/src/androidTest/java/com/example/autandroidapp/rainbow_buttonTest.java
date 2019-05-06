@@ -13,28 +13,28 @@ import static androidx.test.espresso.action.ViewActions.click;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
 import static org.junit.Assert.*;
 
-public class art_buttonTest {
+public class rainbow_buttonTest {
 
     @Rule
-    public ActivityTestRule<art_button> artTestRule = new ActivityTestRule<art_button>(art_button.class);
-    private art_button artActivity = null;
+    public ActivityTestRule<rainbow_button> rainbowTestRule = new ActivityTestRule<rainbow_button>(rainbow_button.class);
+    private rainbow_button rainbowActivity = null;
 
     //method to get architecture activity for testing
     @Before
     public void setUp() {
-        artActivity = artTestRule.getActivity();
+        rainbowActivity = rainbowTestRule.getActivity();
         Looper.prepare();
     }
 
     //a method to test the home button being pressed
     @Test
-    public void homeActivity() {
+    public void homeActivity(){
         onView(withId(R.id.action_home)).perform(click());
-        assertEquals(artActivity.getCurrentFocus(), new MainActivity().getCurrentFocus());
+        assertEquals(rainbowActivity.getCurrentFocus(), new MainActivity().getCurrentFocus());
     }
 
     @After
-    public void tearDown() {
-        artActivity = null;
+    public void tearDown()  {
+        rainbowActivity = null;
     }
 }
