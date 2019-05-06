@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     //this method includes the activity of the chatbot button on the homepage,
     //once the chatbot button is pressed, the activity will be executed.
     public void chatbotActivity(View view) {
-        Intent intent = new Intent(this, chatbot_button.class);
+        Intent intent = new Intent(this, ChatbotActivity.class);
         startActivity(intent);
     }
 
