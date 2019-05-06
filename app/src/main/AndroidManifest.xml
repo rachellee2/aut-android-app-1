@@ -3,6 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.autandroidapp">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/> <!--AUDIO-->
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -215,7 +218,7 @@
                 android:value="com.example.autandroidapp.MainActivity" />
         </activity>
         <activity
-            android:name=".chatbot_button"
+            android:name=".ChatbotActivity"
             android:label="@string/CHATBOTTITLE"
             android:parentActivityName=".MainActivity"
             tools:ignore="DuplicateActivity">
