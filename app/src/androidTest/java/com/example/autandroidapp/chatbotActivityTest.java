@@ -27,7 +27,7 @@ public class chatbotActivityTest {
 
     @Test
     // A method to test launching a mapActivity, with map images of city campus
-        public void chatbotActivity() {
+    public void chatbotActivity() {
 
         View view = mainActivity.findViewById(R.id.chatbot);
         assertNotNull(view);
