@@ -2,16 +2,31 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <!--<item-->
-        <!--android:id="@+id/action_settings"-->
-        <!--android:orderInCategory="100"-->
-        <!--android:title="@string/action_settings"-->
-        <!--app:showAsAction="never" />-->
+    <!--android:id="@+id/action_settings"-->
+    <!--android:orderInCategory="100"-->
+    <!--android:title="@string/action_settings"-->
+    <!--app:showAsAction="never" />-->
 
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/paper_search"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always"
+        android:visible="false"/>
+    <item
+        android:id="@+id/paperSearch"
+        android:icon="@drawable/paper_search"
+        android:title="@string/paper_search"
+        app:showAsAction="always|collapseActionView"
+        android:visible="false"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        />
     <item
         android:id="@+id/action_home"
         android:icon="@drawable/home"
         android:title="@string/action_home"
-        app:showAsAction="always"
-        ></item>
+        app:showAsAction="always|collapseActionView"></item>
+
 
 </menu>
