@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:ellipsize="none"
+    android:maxLines="100"
+    android:padding="10dp"
+    android:scrollHorizontally="false"
+    android:singleLine="false"
+    android:textColor="@color/common_google_signin_btn_text_light_pressed"
+    android:textSize="15sp">
+
+</TextView>

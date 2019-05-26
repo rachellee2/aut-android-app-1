@@ -1,0 +1,530 @@
+[
+  {
+    "paper-name": "Data and Process Modelling",
+    "paper-code": "INFS600",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 6,
+    "prescriptor": "A practical foundation in high-level computer graphics programming and a comprehensive overview of proven graphics algorithms and software techniques is presented with a focus on those techniques that have become common currency in the field of interactive computer graphics."
+  },
+  {
+    "paper-name": "Applied Communication",
+    "paper-code": "COMM501",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 5,
+    "prescriptor": "Skills and capabilities based on theoretical knowledge in the areas of written, oral, interpersonal and group communication. The content of the course is at all stages made relevant to the students needs both for their course of study and their role in the workplace."
+  },
+  {
+    "paper-name": "Computer Networking",
+    "paper-code": "COMP504",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 5,
+    "prescriptor": "Presents an integrated approach to data communications and computer networking principles, building on IT infrastructure concepts. These concepts are applied in a network environment starting with the application layer and progressing through to the data link layer."
+  },
+  {
+    "paper-name": "Programming for Engineering Applications",
+    "paper-code": "ENSE501",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 5,
+    "prescriptor": "Introduces the process of program design and implementation using object-oriented programming, with particular emphasis on applications from Computer Science and engineering technology."
+  },
+  {
+    "paper-name": "Object Oriented Applications",
+    "paper-code": "ENSE502",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 5,
+    "prescriptor": "Introduces the process of program design and implementation using object-oriented programming, with particular emphasis on applications from Computer Science and engineering technology."
+  },
+  {
+    "paper-name": "Algebra and Discrete Mathematics",
+    "paper-code": "MATH502",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 5,
+    "prescriptor": "Gives the student a solid foundation in algebra and discrete mathematics, providing essential background for further study in many fields of Science and Engineering, particularly those utilizing ideas from Mathematics or Computer Science."
+  },
+  {
+    "paper-name": "Statistical Computing with SAS",
+    "paper-code": "STAT701",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 7,
+    "prescriptor": "An introduction to data management for analytics suitable for applications in business, finance, industry, and government.  Topics include: querying, cleaning, manipulating, and displaying data;   programming skills and methods suitable for handling large data sets."
+  },
+  {
+    "paper-name": "Enterprise Systems",
+    "paper-code": "INFS500",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 5,
+    "prescriptor": "An introduction to enterprise information systems, the relevant processes, controls and reports in an information technology environment, and Information System development methodologies."
+  },
+  {
+    "paper-name": "Physical Database Design",
+    "paper-code": "INFS602",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 6,
+    "prescriptor": "Covers database design from a performance perspective. Presents a complete view of the Database Design process from Requirements Analysis to Database Deployment on an actual Database server. Issues such as Data Storage, Security, Concurrency Control, Query Optimisation, Access Paths, Application Tuning and Data Warehousing are covered in depth. Overall, the course develops the ability to deal with the technical aspects of database administration in an enterprise scale database system."
+  },
+  {
+    "paper-name": "Introduction to Programming",
+    "paper-code": "COMP505",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 5,
+    "prescriptor": "Introduces programming concepts through the use of structured scripting to move and manipulate multimedia objects, such as images, audio and video files. Aspects of interpreting system feedback, identifying errors and developing coding best practice are also covered.  This elective paper provides students with an opportunity to learn and practice programming through structured activities that can be built on in more advanced programming papers."
+  },
+  {
+    "paper-name": "Logic and Discrete Structures",
+    "paper-code": "COMP613",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 6,
+    "prescriptor": "An introduction to the logical and combinatorial tools and methods used in mathematics and computer science, with an emphasis on axiomatic systems, combinatorial principles, and automated reasoning."
+  },
+  {
+    "paper-name": "Applied Stochastic Models",
+    "paper-code": "STAT700",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 7,
+    "prescriptor": "The focus of this paper is the application of stochastic models to analyse real-life scenarios.  Key stochastic processes are studied via their mathematical properties and simulation. Models are fitted to data taken from a range of applications."
+  },
+  {
+    "paper-name": "Computer Network Applications",
+    "paper-code": "ENEL611",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 6,
+    "prescriptor": "To provide the knowledge and skills required to build a scalable switched and routed Wide Area Network."
+  },
+  {
+    "paper-name": "Special Topic",
+    "paper-code": "COMP705",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 7,
+    "prescriptor": "An investigation of a defined topic in a supervised programme of readings."
+  },
+  {
+    "paper-name": "Game Programming",
+    "paper-code": "COMP710",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 7,
+    "prescriptor": "A practical foundation in game programming, using a variety of game development tools and programming libraries, and deploying games on a variety of platforms."
+  },
+  {
+    "paper-name": "Contemporary Issues in Software Engineering",
+    "paper-code": "ENSE701",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 7,
+    "prescriptor": "This paper aims to further develop your understanding of the concepts and methods required for the construction of large software intensive systems. The paper develops a broader understanding of the discipline of software engineering to provide exposure to the full range of techniques and processes associated with the development of complex software intensive systems."
+  },
+  {
+    "paper-name": "Computing Technology in Society",
+    "paper-code": "COMP501",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 5,
+    "prescriptor": "Provides a wide-ranging, multidisciplinary introduction to the evolution and application of increasingly complex and powerful computer systems (and other forms of digital technology) with particular emphasis on their impact on society."
+  },
+  {
+    "paper-name": "Advanced Network Technologies",
+    "paper-code": "COMP714",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 7,
+    "prescriptor": "This course reviews the advancement in data communications and networking supporting distributed systems incorporating components from current Networking protocols and products.. It applies relevant theoretical models for the evaluation, selection and deployment of advanced network technologies providing specified services."
+  },
+  {
+    "paper-name": "Operating Systems",
+    "paper-code": "COMP604",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 6,
+    "prescriptor": "An introduction to the design and construction of object- oriented software. It will extend individual design and programming skills developed in earlier programming papers, with an emphasis on the quality, modularity and reusability of the software developed. The paper will introduce current techniques used in software development that allow the goals of software development projects to be realised."
+  },
+  {
+    "paper-name": "Data Structures and Algorithms",
+    "paper-code": "COMP610",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 6,
+    "prescriptor": "Theoretical and practical skills for the utilisation of mathematical structures and algorithms for handling data that are essential in computational mathematics and computer science. Static and dynamic structures for data, cloning data, mathematical concepts of iteration and recursion, analysis of performance and complexity, data searching and data sorting algorithms, mathematical logic and formal grammars."
+  },
+  {
+    "paper-name": "Theory of Computation",
+    "paper-code": "COMP711",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 7,
+    "prescriptor": "A rigorous exploration into the Theory of Computer Science providing a mathematically sound presentation of the theory of computer science including formal languages and models of computation, as well as an introduction to computational complexity."
+  },
+  {
+    "paper-name": "Software Development Practice",
+    "paper-code": "COMP602",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 6,
+    "prescriptor": "Extends individual software development skills into a team environment. Students are exposed to common and emergent practices in the field and introduced to a range of tools that support development processes and practices."
+  },
+  {
+    "paper-name": "From Perception to Technology: 3-D Display and Haptic Systems",
+    "paper-code": "ENSE702",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 7,
+    "prescriptor": "Describes a broad range of emerging creative 3-D display and interaction interfaces (including haptics) framing this discussion within an evolutionary context and by frequent reference to human cognitive, problem solving, and sensory processes. A research-infused curriculum is adopted in this transdisciplinary paper."
+  },
+  {
+    "paper-name": "Needs Analysis and Acquisition",
+    "paper-code": "INFS700",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 7,
+    "prescriptor": "Focuses on skills required to identify a user�s information technology solution requirements: to investigate and evaluate suitable solutions including software, platforms, and vendors, to plan the acquisition of a solution, to critically analyse the models and methodologies used in the requirements analysis and acquisition process."
+  },
+  {
+    "paper-name": "Nature Inspired Computing",
+    "paper-code": "COMP701",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 7,
+    "prescriptor": "Provides an overview of the fundamentals of nature inspired computing (NIC), particularly in the fields of evolutionary algorithms, swarm intelligence, artificial life, DNA computing and quantum computing. Real world applications in optimization, simulation and modeling will be introduced in workshops and recent advances presented and analysed."
+  },
+  {
+    "paper-name": "Applied Statistics",
+    "paper-code": "STAT500",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 5,
+    "prescriptor": "An introduction to applied statistics. Provides techniques for describing and summarising a data set. Delivers an understanding of how to use a sample to infer the properties of the population it was taken from. Students in this course also learn how to use statistical software to undertake descriptive analysis as well as perform statistical inference."
+  },
+  {
+    "paper-name": "Forecasting",
+    "paper-code": "STAT603",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 6,
+    "prescriptor": "An introduction to forecasting in business and economics using statistical models. Making predictions from data that arise sequentially in time (e.g. annual electricity production, unemployment rates, share prices, global temperature series). Topics include forecasting strategies, detecting trends, autoregressive models, and simulation."
+  },
+  {
+    "paper-name": "Contemporary Information Systems",
+    "paper-code": "INFS703",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 7,
+    "prescriptor": "Examines the relationships and capabilities of Information Systems in global information economies. The analysis, design and implementation of IS is examined, along with the use of enabling technologies to engineer Information Systems across diverse organisations."
+  },
+  {
+    "paper-name": "Research and Development Project Part 1",
+    "paper-code": "COMP702",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 7,
+    "prescriptor": "An investigation into a selected area whether that be a specific problem domain, or an area of business opportunity. The project is typically an original investigation but considerable flexibility is allowed. Typically projects will involve software or systems development for business clients, commercial research and development projects on behalf of clients, or supervised research projects in selected areas specific to the Major of the student."
+  },
+  {
+    "paper-name": "Computer Network Principles",
+    "paper-code": "ENEL504",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 5,
+    "prescriptor": "To provide the knowledge and skills required to build a scalable switched and routed computer network."
+  },
+  {
+    "paper-name": "Text and Vision Intelligence",
+    "paper-code": "COMP700",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 7,
+    "prescriptor": "Language and vision are fundamental to human perception and cognition, yet there is relatively little understanding of how the two interact or operate together at a system level to aid learning and recognition. This paper covers fundamental and advanced aspects of language (especially text) and vision from an artificial intelligence perspective. The primary focus is on practical algorithms, tools and systems of text, vision intelligence, as well as their performance evaluation. Techniques of representing information in semi-formal languages such as Standard Generalized Markup Language (SGML) and free text are compared. The issues associated with representation and extraction of information encapsulated in textual and visual formats, such as the semantic unit perceived as an event, will be explored. Examples of text and visual modelling techniques such as probabilistic and vector models will be used to illustrate AI applications."
+  },
+  {
+    "paper-name": "Highly Secure Systems",
+    "paper-code": "COMP716",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 7,
+    "prescriptor": "Provides an in-depth understanding of LAN, WAN and Wireless security focusing on the functionality available and configuration of network and link layers."
+  },
+  {
+    "paper-name": "IT Strategy and Control",
+    "paper-code": "INFS701",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 7,
+    "prescriptor": "Examines the practice and theory of IT Services Management with a focus on industry best practices in managing information technology in an organisation. Such practices are put in context through the presentation of an overall framework for aligning IT strategies with business strategies, monitoring, evaluating and improving IT operations performance, and auditing the relevant processes."
+  },
+  {
+    "paper-name": "Industrial and Business Analytics",
+    "paper-code": "STAT702",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 7,
+    "prescriptor": "Collection and analysis of data in an industrial and business context. Control charts, experimental design, samples and surveys. Analysis of data using analytics software."
+  },
+  {
+    "paper-name": "IT Project Practice",
+    "paper-code": "COMP720",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 7,
+    "prescriptor": "Provides students with the core competencies of project management together with an appreciation of professional ethics and practice related to the introduction and life cycle of information systems and services in organisations."
+  },
+  {
+    "paper-name": "Mathematical Concepts",
+    "paper-code": "MATH500",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 5,
+    "prescriptor": "Provides an introduction to the mathematical concepts required for an understanding of the analysis of data and applications in computing, science, and engineering. Topics include: sets, functions, series, limits, calculus, probability and statistics."
+  },
+  {
+    "paper-name": "Applied Human Computer Interaction",
+    "paper-code": "COMP719",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 7,
+    "prescriptor": "Furthers understanding of the factors (psychological, ergonomic, organisational, social etc) that determine how people operate and make use of computer technology effectively."
+  },
+  {
+    "paper-name": "IT Service Management",
+    "paper-code": "INFS702",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 7,
+    "prescriptor": "A critical analysis of the service techniques and procedures required to provide supervision, technical support, IT operations services and customer service in an IT operations environment."
+  },
+  {
+    "paper-name": "Foundations of Information Science",
+    "paper-code": "COMP606",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 6,
+    "prescriptor": "To lay a foundation for the use and understanding of information from a computational perspective This paper will prepare students to identify sources of information, their advantages and limitations and the application of information to real-world problems. The transformation of data to knowledge represents a key objective of this paper."
+  },
+  {
+    "paper-name": "Financial Mathematics",
+    "paper-code": "MATH604",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 6,
+    "prescriptor": "The elements of actuarial mathematics: securities, annuities, mortality laws, life annuities, life insurance policy values."
+  },
+  {
+    "paper-name": "Programming 2",
+    "paper-code": "COMP503",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 5,
+    "prescriptor": "Introduces the process of program design and implementation using object-oriented programming, with particular emphasis on applications from Computer Science and engineering technology."
+  },
+  {
+    "paper-name": "Web Development",
+    "paper-code": "COMP721",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 7,
+    "prescriptor": "Extends the students� knowledge of data communications and internetworking over the World Wide Web, to cover issues associated with development of applications in this environment. Emphasis is upon the analysis, design and development of web-based applications for a variety of purposes using current tools and techniques."
+  },
+  {
+    "paper-name": "Artificial Intelligence",
+    "paper-code": "COMP717",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 7,
+    "prescriptor": "The aim of this paper is to understand the nature of intelligent systems and how such a system may be implemented."
+  },
+  {
+    "paper-name": "Information Security Management",
+    "paper-code": "COMP718",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 7,
+    "prescriptor": "A holistic view of how information security is managed in an organisation, examining its relationship with laws, ethics, culture, standards. Includes the examination of the frameworks, processes, and measures as well as practical problems involved in building secure operational environments for businesses and individual users. Develops the ability to design secure information technology environments."
+  },
+  {
+    "paper-name": "Research and Development Project",
+    "paper-code": "COMP703",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 7,
+    "prescriptor": "An investigation into a selected area whether that be a specific problem domain, or an area of business opportunity. The project is typically an original investigation but considerable flexibility is allowed. Typically projects will involve software or systems development for business clients, commercial research and development projects on behalf of clients, or supervised research projects in selected areas specific to the Major of the student."
+  },
+  {
+    "paper-name": "Data Mining and Knowledge Engineering",
+    "paper-code": "COMP723",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 7,
+    "prescriptor": "Introduces students to the exciting world of Data Mining. Organisations have, over time, accumulated vast amounts of valuable data which, when exploited appropriately will give them a significant competitive advantage over their rivals who merely \"crunch\" data. Data Mining is an area that has come of age - well proven techniques and tools are widely available. Covers popular mining techniques as well as providing specific hands-on experience using a publicly available tool."
+  },
+  {
+    "paper-name": "Research and Development Project",
+    "paper-code": "COMP706",
+    "EFTS": 0.375,
+    "paper-points": 45,
+    "paper-level": 7,
+    "prescriptor": "An investigation into a selected area whether that be a specific problem domain, or an area of business opportunity.  The project is typically an original investigation but considerable flexibility is allowed.  Typically projects will involve either commercial software development for live clients, commercial research and development projects on behalf of live clients, or supervised research projects into selected areas of interest."
+  },
+  {
+    "paper-name": "Distributed and Mobile Systems",
+    "paper-code": "COMP713",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 7,
+    "prescriptor": "Investigates the design and implementation of distributed systems, including contemporary technologies such as Java Enterprise Edition and .NET, as well as the development of mobile systems."
+  },
+  {
+    "paper-name": "Foundations of IT Infrastructure",
+    "paper-code": "COMP502",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 5,
+    "prescriptor": "Provides an introduction to IT infrastructure concepts in order to enable students to understand computer systems architecture for effective configuration and use. Concepts of single user, multi-user, centralised, and operating systems are covered, along with applications and end-user computing."
+  },
+  {
+    "paper-name": "Program Design and Construction",
+    "paper-code": "COMP603",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 6,
+    "prescriptor": "An introduction to the design and construction of object- oriented software. It will extend individual design and programming skills developed in earlier programming papers, with an emphasis on the quality, modularity and reusability of the software developed. The paper will introduce current techniques used in software development that allow the goals of software development projects to be realised."
+  },
+  {
+    "paper-name": "IT Project Management",
+    "paper-code": "COMP600",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 6,
+    "prescriptor": "Provides students with the core competencies of project management in an information technology context. A range of IT project management methodologies and approaches are compared. Some proven practices and supporting tools and techniques are further investigated, particularly with regard to planning, monitoring, estimating and implementing. Expected standards of professionalism and ethics will be highlighted."
+  },
+  {
+    "paper-name": "Programming 1",
+    "paper-code": "COMP500",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 5,
+    "prescriptor": "An introduction to the basics of computer programming to equip students for a career in any branch of IT, the sciences, data analysis or engineering. The fundamentals of writing, designing and testing programs will be developed."
+  },
+  {
+    "paper-name": "Needs Analysis, Acquisition and Training",
+    "paper-code": "INFS603",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 6,
+    "prescriptor": "Focuses on skills required to identify a user's information technology solution requirements: to investigate and evaluate suitable solutions including software, platform and vendors, to plan the acquisition of a solution, to identify training requirements, and to plan a training programme using various delivery methods including flexible/blended delivery."
+  },
+  {
+    "paper-name": "Network and System Administration",
+    "paper-code": "COMP609",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 6,
+    "prescriptor": "Issues, skills and strategies associated with providing core services over a network in a multi user environment. The student will also learn about fine tuning of networked systems for optimum delivery in terms of security, cost and speed."
+  },
+  {
+    "paper-name": "Information Security Technologies",
+    "paper-code": "COMP607",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 6,
+    "prescriptor": "Addresses security technology and systems; basic cryptography and public key infrastructure, physical security, logical security, access controls, securing networks, network operations, systems, databases and applications, mobile and wireless security, web-services security, and security strategies for e-commerce. The intrinsic relationship between security technologies, ethics, legal and regulatory requirements, forensics and fraud, business strategy, and risk management is addressed."
+  },
+  {
+    "paper-name": "Research and Development Project",
+    "paper-code": "COMP704",
+    "EFTS": 0.25,
+    "paper-points": 30,
+    "paper-level": 7,
+    "prescriptor": "An investigation into a selected area whether that be a specific problem domain, or an area of business opportunity. The project is typically an original investigation but considerable flexibility is allowed. Typically projects will involve software or systems development for business clients, commercial research and development projects on behalf of clients, or supervised research projects in selected areas specific to the major of the student."
+  },
+  {
+    "paper-name": "Network Security",
+    "paper-code": "COMP715",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 7,
+    "prescriptor": "Provides an in-depth understanding of LAN, WAN and Wireless security focusing on the functionality available and configuration of network and link layers."
+  },
+  {
+    "paper-name": "Programming Languages",
+    "paper-code": "COMP712",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 7,
+    "prescriptor": "Surveys the theoretical and practical aspects of modern programming languages, including their design and implementation, program translation, virtual machines, and different programming pradigms."
+  },
+  {
+    "paper-name": "Logical Database Design",
+    "paper-code": "INFS601",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 6,
+    "prescriptor": "Provides students with the essential concepts, principles, and techniques of database management systems. Specifically, the paper provides an in-depth understanding of data modelling and database design concepts. The retrieval language will be covered in detail. The balanced approach of theory and practice will provide students with a better understanding of the issues and problems involved in database design and development."
+  },
+  {
+    "paper-name": "Health Informatics",
+    "paper-code": "COMP724",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 7,
+    "prescriptor": "Demonstrates effective analysis of the role of IT in health care and the Primary, Secondary and Public health levels. Identifies the appropriate use of technologies involved in health informatics including coding, diagnosis and communication systems as well as the electronic medical record. Topics include ethical and practical considerations for the effective use of health informatics along with the use of evidence to guide practice."
+  },
+  {
+    "paper-name": "Computer Graphics and Animation",
+    "paper-code": "COMP612",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 6,
+    "prescriptor": "A practical foundation in high-level computer graphics programming and a comprehensive overview of proven graphics algorithms and software techniques is presented with a focus on those techniques that have become common currency in the field of interactive computer graphics."
+  },
+  {
+    "paper-name": "Statistical Methods",
+    "paper-code": "STAT601",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 6,
+    "prescriptor": "A study of statistical methods suitable for a range of applications in science, engineering and business."
+  },
+  {
+    "paper-name": "Algorithm Design and Analysis",
+    "paper-code": "COMP611",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 6,
+    "prescriptor": "Algorithmic analysis, concurrency algorithms, design patterns, design techniques, advanced data structures, graph algorithms, numerical algorithms."
+  },
+  {
+    "paper-name": "Probability",
+    "paper-code": "STAT600",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 6,
+    "prescriptor": "Provides an introduction to a branch of statistics that deals with the study of chance. Delivers access to a range of techniques for modelling and analysing probability problems in real-life settings."
+  },
+  {
+    "paper-name": "Differential and Integral Calculus",
+    "paper-code": "MATH501",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 5,
+    "prescriptor": "Gives the student an understanding of differential and integral calculus, and develops the ability to formulate and solve models of simple engineering and scientific systems."
+  },
+  {
+    "paper-name": "IT Service Provision",
+    "paper-code": "COMP601",
+    "EFTS": 0.125,
+    "paper-points": 15,
+    "paper-level": 6,
+    "prescriptor": "Provides an introduction to IT Service Science and its role in the development and provision of high quality IT services. The foundations of high quality services are covered, including standard procedures, techniques and tools. Students will gain IT service and operations orientated skills."
+  }
+]

@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     //once the courses button is pressed, the activity will be executed.
     public void coursesActivity(View view) {
         messagePop();
-        Intent intent = new Intent(this, courses_button.class);
+        Intent intent = new Intent(this, CoursesActivity.class);
         startActivity(intent);
     }
 
