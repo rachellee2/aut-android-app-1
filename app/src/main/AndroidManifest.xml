@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.autandroidapp">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.RECORD_AUDIO"/> <!--AUDIO-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <application
         android:allowBackup="true"
@@ -14,10 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity
-            android:name=".calendar2_button"
-            android:label="@string/title_activity_calendar2_button"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".athlete_button"></activity>
         <activity
             android:name=".autcontact_button"
             android:label="@string/AUTCONTACT"
@@ -102,15 +99,6 @@
         <activity
             android:name=".career_button"
             android:label="@string/CAREERS"
-            android:parentActivityName=".services_button"
-            tools:ignore="DuplicateActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.autandroidapp.services_button" />
-        </activity>
-        <activity
-            android:name=".athlete_button"
-            android:label="@string/ATHLETE"
             android:parentActivityName=".services_button"
             tools:ignore="DuplicateActivity">
             <meta-data
@@ -209,15 +197,6 @@
                 android:value="com.example.autandroidapp.MainActivity" />
         </activity>
         <activity
-            android:name=".courses_button"
-            android:label="@string/COURSESTITLE"
-            android:parentActivityName=".MainActivity"
-            tools:ignore="DuplicateActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.autandroidapp.MainActivity" />
-        </activity>
-        <activity
             android:name=".ChatbotActivity"
             android:label="@string/CHATBOTTITLE"
             android:parentActivityName=".MainActivity"
@@ -227,157 +206,22 @@
                 android:value="com.example.autandroidapp.MainActivity" />
         </activity>
         <activity
-            android:name=".art_button"
-            android:label="@string/ART"
-            android:parentActivityName=".courses_button"
+            android:name=".CoursesActivity"
+            android:label="@string/COURSESTITLE"
+            android:parentActivityName=".MainActivity"
             tools:ignore="DuplicateActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.autandroidapp.courses_button" />
+                android:value="com.example.autandroidapp.MainActivity" />
         </activity>
         <activity
-            android:name=".architecture_button"
-            android:label="@string/ARCHITECTURE"
-            android:parentActivityName=".courses_button"
+            android:name=".CoursePapersActivity"
+            android:label="@string/COURSEPAPERS"
+            android:parentActivityName=".CoursesActivity"
             tools:ignore="DuplicateActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.autandroidapp.courses_button" />
-        </activity>
-        <activity
-            android:name=".business_button"
-            android:label="@string/BUSINESS"
-            android:parentActivityName=".courses_button"
-            tools:ignore="DuplicateActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.autandroidapp.courses_button" />
-        </activity>
-        <activity
-            android:name=".comm_button"
-            android:label="@string/COMMUNICATION"
-            android:parentActivityName=".courses_button"
-            tools:ignore="DuplicateActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.autandroidapp.courses_button" />
-        </activity>
-        <activity
-            android:name=".compsci_button"
-            android:label="@string/COMPSCI"
-            android:parentActivityName=".courses_button"
-            tools:ignore="DuplicateActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.autandroidapp.courses_button" />
-        </activity>
-        <activity
-            android:name=".creativetech_button"
-            android:label="@string/CREATIVETECH"
-            android:parentActivityName=".courses_button"
-            tools:ignore="DuplicateActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.autandroidapp.courses_button" />
-        </activity>
-        <activity
-            android:name=".education_button"
-            android:label="@string/EDUCATION"
-            android:parentActivityName=".courses_button"
-            tools:ignore="DuplicateActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.autandroidapp.courses_button" />
-        </activity>
-        <activity
-            android:name=".engineering_button"
-            android:label="@string/ENGINEERING"
-            android:parentActivityName=".courses_button"
-            tools:ignore="DuplicateActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.autandroidapp.courses_button" />
-        </activity>
-        <activity
-            android:name=".health_button"
-            android:label="@string/HEALTH"
-            android:parentActivityName=".courses_button"
-            tools:ignore="DuplicateActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.autandroidapp.courses_button" />
-        </activity>
-        <activity
-            android:name=".lang_button"
-            android:label="@string/LANGUAGE"
-            android:parentActivityName=".courses_button"
-            tools:ignore="DuplicateActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.autandroidapp.courses_button" />
-        </activity>
-        <activity
-            android:name=".law_button"
-            android:label="@string/LAW"
-            android:parentActivityName=".courses_button"
-            tools:ignore="DuplicateActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.autandroidapp.courses_button" />
-        </activity>
-        <activity
-            android:name=".maori_button"
-            android:label="@string/MAORI"
-            android:parentActivityName=".courses_button"
-            tools:ignore="DuplicateActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.autandroidapp.courses_button" />
-        </activity>
-        <activity
-            android:name=".math_button"
-            android:label="@string/MATH"
-            android:parentActivityName=".courses_button"
-            tools:ignore="DuplicateActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.autandroidapp.courses_button" />
-        </activity>
-        <activity
-            android:name=".science_button"
-            android:label="@string/SCIENCE"
-            android:parentActivityName=".courses_button"
-            tools:ignore="DuplicateActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.autandroidapp.courses_button" />
-        </activity>
-        <activity
-            android:name=".socialsci_button"
-            android:label="@string/SOCIALSCI"
-            android:parentActivityName=".courses_button"
-            tools:ignore="DuplicateActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.autandroidapp.courses_button" />
-        </activity>
-        <activity
-            android:name=".sport_button"
-            android:label="@string/SPORT"
-            android:parentActivityName=".courses_button"
-            tools:ignore="DuplicateActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.autandroidapp.courses_button" />
-        </activity>
-        <activity
-            android:name=".tourism_button"
-            android:label="@string/TOURISM"
-            android:parentActivityName=".courses_button"
-            tools:ignore="DuplicateActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.autandroidapp.courses_button" />
+                android:value="com.example.autandroidapp.CoursesActivity" />
         </activity>
         <activity android:name=".MainActivity">
             <intent-filter>

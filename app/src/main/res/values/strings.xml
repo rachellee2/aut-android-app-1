@@ -7,6 +7,7 @@
     <string name="SERVICES">SERVICES</string>
     <string name="MAP">MAP</string>
     <string name="COURSES">COURSES</string>
+    <string name="COURSEPAPERS">COURSE PAPERS</string>
     <string name="CALENDAR">CALENDAR</string>
     <string name="HELP">HELP</string>
     <string name="AUTSERVICES">AUT SERVICES</string>
@@ -68,6 +69,7 @@
     <string name="tab_text_2">Tab 2</string>
     <string name="tab_text_3">Tab 3</string>
     <string name="title_activity_calendar2_button">calendar2_button</string>
+    <string name="paper_search">paperSearch</string>
 
     <!-- Actionbar String-->
     <string name="action_home">actionHome</string>
