@@ -158,6 +158,17 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.autandroidapp.help_button" />
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:scheme="https"
+                    android:host="www.aut.ac.nz"
+                    android:pathPattern="/https://www.aut.ac.nz/student-life/graduation" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".medical_button"
@@ -231,5 +242,7 @@
             </intent-filter>
         </activity>
     </application>
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
 </manifest>
