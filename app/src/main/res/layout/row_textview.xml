@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/listLabel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Paper name: "
+        android:textColor="#175781"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/listText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@+id/listLabel1"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/listLabel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listLabel1"
+        android:layout_alignBaseline="@id/listText2"
+        android:layout_marginLeft="10dp"
+        android:text="Paper code: "
+        android:textColor="#175781"
+        />
+
+    <TextView
+        android:id="@+id/listText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listText1"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@+id/listLabel2"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/listLabel3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listLabel2"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBaseline="@id/listText3"
+        android:text="EFTS: "
+        android:textColor="#175781"
+        android:textSize="12sp"
+        />
+
+    <TextView
+        android:id="@+id/listText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listText2"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@+id/listLabel3"
+        android:textSize="12sp"
+        />
+
+    <TextView
+        android:id="@+id/listLabel4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listLabel3"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBaseline="@id/listText4"
+        android:text="Points: "
+        android:textColor="#175781"
+        android:textSize="12sp"
+        />
+
+    <TextView
+        android:id="@+id/listText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listText3"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@+id/listLabel4"
+        android:textSize="12sp"
+        />
+
+    <TextView
+        android:id="@+id/listLabel5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listLabel4"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBaseline="@id/listText5"
+        android:text="Level: "
+        android:textColor="@color/appTheme"
+        android:textSize="12sp"
+        />
+
+    <TextView
+        android:id="@+id/listText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listText4"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@+id/listLabel5"
+        android:textSize="12sp"
+        />
+    <TextView
+        android:id="@+id/listLabel6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listLabel5"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBaseline="@id/listText6"
+        android:text="Prescriptor: "
+        android:textColor="#175781"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/listText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listText5"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@+id/listLabel6"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        />
+
+</RelativeLayout>
