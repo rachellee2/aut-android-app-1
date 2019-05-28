@@ -40,6 +40,7 @@ public class CoursesActivity_getDegrees_Test {
     // This method checks if received dgrList actually contains all the correct degree names for science department.
     @Test
     public void testGetDegrees(){
+        coursesActivity.loadDegree(fileName);
         dgrList = coursesActivity.getDegrees();
         dgrList.remove(coursesActivity.dgrPrompt);
         assertEquals(dgrList, expectedDgrList);
