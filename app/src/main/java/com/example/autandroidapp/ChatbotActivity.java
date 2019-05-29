@@ -13,7 +13,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.EditText;
 import android.view.View;
-import android.widget.TextView;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -33,7 +32,6 @@ import java.util.List;
  */
 public class ChatbotActivity extends AppCompatActivity
 {
-    TextView chatbotReply, userMessage;
     EditText editbox;
     private RecyclerView msgRecyclerView;
     List<ChatMsgList> msgList;
@@ -68,7 +66,7 @@ public class ChatbotActivity extends AppCompatActivity
         Intent intent = getIntent();
 
         if(messageRec == null){ //If the media player for a message recieved is already created don't create another.
-        messageRec = MediaPlayer.create(this,R.raw.get_outta_here);
+            messageRec = MediaPlayer.create(this,R.raw.get_outta_here);
         }
         if(messageSend==null){ //IF the media player for a message sent is already created don't create another
             messageSend = MediaPlayer.create(this, R.raw.inquisitiveness);
@@ -192,21 +190,31 @@ public class ChatbotActivity extends AppCompatActivity
      * @param view
      * @throws InterruptedException
      */
-    public void sendMessage(View view) {
-          String userMsg = editbox.getText().toString();
-          if(!TextUtils.isEmpty(userMsg))
-          {
-                ChatMsgList chatMsg = new ChatMsgList(ChatMsgList.Msg_sent, userMsg); //create new chat message add it to the list
-                msgList.add(chatMsg);
-                int msgPost = msgList.size()-1;
-                editbox.setText(""); //clear user edit box
-                messageSend.start(); //play the message sound
-                adapter.notifyItemInserted(msgPost); //update chat recycler
-                msgRecyclerView.scrollToPosition(msgPost);
-                //Thread.sleep(500); //sleep for .5sec to allow for sound
-                RetrieveFeedTask task = new RetrieveFeedTask(); //call for dialog flows response
-                task.execute(userMsg);
-          }
+    public void sendMessage(View view) throws InterruptedException {
+        String userMsg = editbox.getText().toString();
+        if(!TextUtils.isEmpty(userMsg))
+        {
+            ChatMsgList chatMsg = new ChatMsgList(ChatMsgList.Msg_sent, userMsg); //create new chat message add it to the list
+            msgList.add(chatMsg);
+            int msgPost = msgList.size()-1;
+            editbox.setText(""); //clear user edit box
+            messageSend.start(); //play the message sound
+            adapter.notifyItemInserted(msgPost); //update chat recycler
+            msgRecyclerView.scrollToPosition(msgPost);
+            Thread.sleep(500); //sleep for .5sec to allow for sound
+            RetrieveFeedTask task = new RetrieveFeedTask(); //call for dialog flows response
+            task.execute(userMsg);
+        }
+    }
+
+    /**
+     * A method for unit testing if the correct message is returned from dialog flow
+     * @param word
+     */
+    public void sendMessageTest(String word)
+    {
+        RetrieveFeedTask task = new RetrieveFeedTask(); //call for dialog flows response
+        task.execute(word);
     }
 
     /**
