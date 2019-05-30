@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
     //once the services button is pressed, the activity will be executed.
     public void servicesActivity(View view) {
         messagePop();
-        Intent intent = new Intent(this, services_button.class);
+        Intent intent = new Intent(this, ServicesActivity.class);
         startActivity(intent);
     }
 

@@ -2,6 +2,7 @@ package com.example.autandroidapp;
 
 import androidx.test.rule.ActivityTestRule;
 
+import org.json.JSONException;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Rule;
@@ -22,7 +23,7 @@ public class CoursesActivity_getDegrees_Test {
     ArrayList<String> expectedDgrList = new ArrayList<>();
     String fileName = null;
 
-    // This method sets up the necessary date for testing. fileName is science.json and expectedDgrList contains names of degrees in science department.
+    // This method sets up the necessary data for testing. fileName is science.json and expectedDgrList contains names of degrees in science department.
     @Before
     public void setUp() throws Exception {
         fileName = "science.json";
@@ -39,7 +40,7 @@ public class CoursesActivity_getDegrees_Test {
 
     // This method checks if received dgrList actually contains all the correct degree names for science department.
     @Test
-    public void testGetDegrees(){
+    public void testGetDegrees() throws JSONException {
         coursesActivity.loadDegree(fileName);
         dgrList = coursesActivity.getDegrees();
         dgrList.remove(coursesActivity.dgrPrompt);
