@@ -22,7 +22,7 @@ public class CoursesActivity_loadPaperInformation_Test {
     ArrayList<HashMap<String, String>> papersList;
     String fileName, degreeName, expectedPaper;
 
-    // This method sets up the necessary date for testing. degreeName is BCIS and expectedPaper contains a paper that is only offered in BCIS.
+    // This method sets up the necessary data for testing. degreeName is BCIS and expectedPaper contains a paper that is only offered in BCIS.
     @Before
     public void setUp() throws Exception {
         coursesActivity = coursesActivity_getDegrees_testActivityTestRule.getActivity();

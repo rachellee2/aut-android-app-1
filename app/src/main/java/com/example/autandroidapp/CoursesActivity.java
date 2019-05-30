@@ -13,12 +13,9 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.IOException;
-import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -39,6 +36,7 @@ public class CoursesActivity extends AppCompatActivity {
     public final String dpmtPrompt = "Select department";
     public final String dgrPrompt = "Select degree";
     Button btnPaperSearch;
+    JsonManager courseJsonManager = new JsonManager();
 
     public boolean onCreateOptionsMenu(Menu menu)
     {
@@ -100,13 +98,21 @@ public class CoursesActivity extends AppCompatActivity {
                 case "Science":
                     jsonFileName = "science.json";
                     selectedDepartment = "Science";
-                    loadDegree(jsonFileName); // load degree into degreeList
+                    try {
+                        loadDegree(jsonFileName); // load degree into degreeList
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
                     break;
                 // Load papers for engineering department
                 case "Engineering, computer and mathematical sciences":
                     jsonFileName = "engineering_computer_and_mathematical_sciences.json";
                     selectedDepartment = "Engineering, computer and mathematical sciences";
-                    loadDegree(jsonFileName); // load degree into degreeList
+                    try {
+                        loadDegree(jsonFileName); // load degree into degreeList
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
                     break;
                 // If prompt item is selected, disable spinnerDegrees and empty out papers list.
                 case dpmtPrompt:
@@ -222,37 +228,25 @@ public class CoursesActivity extends AppCompatActivity {
      * and load them into paperInDepartment.
      * @param fileName selected department's json file name
      */
-    public void loadDegree(String fileName){
-        JSONArray jsonArray;
+    public void loadDegree(String fileName) throws JSONException {
+        courseJsonManager.readJsonFile(CoursesActivity.this, fileName);
+        courseJsonManager.createJsonArray(courseJsonManager.getJsonString());
         ArrayList<HashMap<String, String>> degrees = new ArrayList<HashMap<String, String>>();
-        try{
-            InputStream is = getResources().getAssets().open(fileName);
-            int size = is.available();
-            byte[] data = new byte[size];
-            is.read(data);
-            is.close();
-            String json = new String(data, "UTF-8");
-            jsonArray = new JSONArray(json);
-            JSONObject currentJsonObject;
-            if(jsonArray != null){
-                for(int i = 0; i < jsonArray.length() ; i++){
-                    currentJsonObject = jsonArray.getJSONObject(i);
-                    HashMap<String, String> paperInformation = new HashMap<String, String>();
-                    paperInformation.put("qualification_name", currentJsonObject.getString("qualification_name"));
-                    paperInformation.put("paper_name", currentJsonObject.getString("paper_name"));
-                    paperInformation.put("paper_code", currentJsonObject.getString("paper_code"));
-                    paperInformation.put("efts", currentJsonObject.getString("efts"));
-                    paperInformation.put("points", currentJsonObject.getString("points"));
-                    paperInformation.put("level", currentJsonObject.getString("level"));
-                    paperInformation.put("prescriptor", currentJsonObject.getString("prescriptor"));
-                    degrees.add(paperInformation);
-                }
-                this.papersInDepartment = degrees;
+        JSONObject currentJsonObject;
+        if(courseJsonManager.getJsonArray() != null){
+            for(int i = 0; i < courseJsonManager.getJsonArray().length() ; i++){
+                currentJsonObject = courseJsonManager.getJsonArray().getJSONObject(i);
+                HashMap<String, String> paperInformation = new HashMap<String, String>();
+                paperInformation.put("qualification_name", currentJsonObject.getString("qualification_name"));
+                paperInformation.put("paper_name", currentJsonObject.getString("paper_name"));
+                paperInformation.put("paper_code", currentJsonObject.getString("paper_code"));
+                paperInformation.put("efts", currentJsonObject.getString("efts"));
+                paperInformation.put("points", currentJsonObject.getString("points"));
+                paperInformation.put("level", currentJsonObject.getString("level"));
+                paperInformation.put("prescriptor", currentJsonObject.getString("prescriptor"));
+                degrees.add(paperInformation);
             }
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (JSONException e) {
-            e.printStackTrace();
+            this.papersInDepartment = degrees;
         }
     }
 
