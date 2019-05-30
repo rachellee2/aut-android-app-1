@@ -10,7 +10,7 @@
         android:id="@+id/papersListView"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:background="#77FFCC9A"
+        android:background="#ffffff"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -70,6 +70,7 @@
     <string name="tab_text_3">Tab 3</string>
     <string name="title_activity_calendar2_button">calendar2_button</string>
     <string name="paper_search">paperSearch</string>
+    <string name="google_maps_key">AIzaSyBrrD8s7oksYVEiwWx4yXcqbCHKAx88ojA </string>
 
     <!-- Actionbar String-->
     <string name="action_home">actionHome</string>
