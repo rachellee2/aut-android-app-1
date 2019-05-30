@@ -5,6 +5,11 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
 
     <application
         android:allowBackup="true"
@@ -14,7 +19,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".athlete_button"></activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <activity android:name=".MapActivity"
+            android:label="@string/MAPTITLE"></activity>
+        <activity android:name=".athlete_button" />
         <activity
             android:name=".autcontact_button"
             android:label="@string/AUTCONTACT"
@@ -158,6 +172,7 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.autandroidapp.help_button" />
+
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -165,9 +180,9 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:scheme="https"
                     android:host="www.aut.ac.nz"
-                    android:pathPattern="/https://www.aut.ac.nz/student-life/graduation" />
+                    android:pathPattern="/https://www.aut.ac.nz/student-life/graduation"
+                    android:scheme="https" />
             </intent-filter>
         </activity>
         <activity
@@ -182,11 +197,6 @@
         <activity
             android:name=".CalendarActivity"
             android:label="@string/CALENDERTITLE"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".MapActivity"
-            android:label="@string/MAPTITLE"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
@@ -242,7 +252,5 @@
             </intent-filter>
         </activity>
     </application>
-
-    <uses-permission android:name="android.permission.CALL_PHONE" />
 
 </manifest>

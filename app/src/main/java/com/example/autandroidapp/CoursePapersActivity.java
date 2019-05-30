@@ -4,11 +4,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ListView;
 import android.widget.SearchView;
 import android.widget.SimpleAdapter;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -84,6 +86,12 @@ public class CoursePapersActivity extends AppCompatActivity {
                 listAdapter = new SimpleAdapter(CoursePapersActivity.this, results, R.layout.row_textview, from, to);
                 listView.setAdapter(listAdapter);
                 listAdapter.notifyDataSetChanged();
+
+                if(results.isEmpty()){
+                    Toast toast = Toast.makeText(CoursePapersActivity.this, "No Result Found", Toast.LENGTH_SHORT);
+                    toast.setGravity(Gravity.CENTER, 0, 0);
+                    toast.show();
+                }
                 return false;
             }
         });

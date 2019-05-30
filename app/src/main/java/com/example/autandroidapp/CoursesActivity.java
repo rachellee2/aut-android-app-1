@@ -36,8 +36,8 @@ public class CoursesActivity extends AppCompatActivity {
     ArrayList<String> departmentNames, degreeNames; // list of departments and degrees that will be displayed in spinners
     ArrayList<HashMap<String, String>> papersInDepartment, papersInDegree; // list of paper information offered in chosen department/degree
     String jsonFileName, selectedDepartment, selectedDegree;
-    public final String dpmtPrompt = "------- Select department -------";
-    public final String dgrPrompt = "---------- Select degree ----------";
+    public final String dpmtPrompt = "Select department";
+    public final String dgrPrompt = "Select degree";
     Button btnPaperSearch;
 
     public boolean onCreateOptionsMenu(Menu menu)
@@ -141,7 +141,12 @@ public class CoursesActivity extends AppCompatActivity {
         public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
             // Gets string for the selected item and store it in String text
             String text = parent.getItemAtPosition(position).toString();
-            Toast.makeText(parent.getContext(), text, Toast.LENGTH_SHORT).show();
+            if(selectedDepartment==null){
+                Toast.makeText(parent.getContext(), dpmtPrompt, Toast.LENGTH_SHORT).show();
+            }
+            else{
+                Toast.makeText(parent.getContext(), text, Toast.LENGTH_SHORT).show();
+            }
             // If prompt item is selected, disable the view button.
             if(text.equalsIgnoreCase(dgrPrompt)){
                 selectedDegree = null;

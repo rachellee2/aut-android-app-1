@@ -81,7 +81,7 @@
         android:background="@drawable/gen_button_all"
         android:layout_width="133dp"
         android:layout_height="70dp"
-        android:onClick="MapActivity"
+        android:onClick="GoogleMapActivity"
         android:text="@string/MAP"
         android:textSize="18sp"
         android:textStyle="bold"
