@@ -26,8 +26,10 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
-        <activity android:name=".MapActivity"
-            android:label="@string/MAPTITLE"></activity>
+        <activity
+            android:name=".MapActivity"
+            android:label="@string/MAPTITLE"
+            android:parentActivityName=".MainActivity"></activity>
         <activity android:name=".athlete_button" />
         <activity
             android:name=".autcontact_button"
