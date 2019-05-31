@@ -61,14 +61,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //this method includes the activity of the calender button on the homepage,
-    //once the calender button is pressed, the activity will be executed.
-    public void CalendarActivity(View view) {
-        messagePop();
-        Intent intent = new Intent(this, CalendarActivity.class);
-        startActivity(intent);
-    }
-
-    //this method includes the activity of the calender button on the homepage,
     //once the map button is pressed, if the service is available, the activity will be executed.
     public void GoogleMapActivity(View view){
         if(isServiceAvailable()){
@@ -104,4 +96,13 @@ public class MainActivity extends AppCompatActivity {
         }
         return false;
     }
+
+    //this method includes the activity of the timetab;e button on the homepage,
+    //once the timetable button is pressed, the activity will be executed.
+    public void TimetableActivity(View view) {
+        messagePop();
+        Intent intent = new Intent(this, TimetableActivity.class);
+        startActivity(intent);
+    }
+
 }

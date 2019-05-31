@@ -28,5 +28,30 @@
         android:title="@string/action_home"
         app:showAsAction="always|collapseActionView"></item>
 
+    <item
+        android:id="@+id/addclass"
+        android:icon="@drawable/addclass"
+        android:title="@string/addcourse"
+        android:visible="false"
+        app:showAsAction="always"
+        ></item>
+
+    <item
+        android:id="@+id/editcourse"
+        android:icon="@drawable/editcourse"
+        android:title="@string/editcourse"
+        android:visible="false"
+        app:showAsAction="always"
+        ></item>
+
+    <item
+        android:id="@+id/deletecourse"
+        android:icon="@drawable/deletecourse"
+        android:title="@string/deletecourse"
+        android:visible="false"
+        app:showAsAction="always"
+        ></item>
+
+
 
 </menu>
