@@ -8,14 +8,12 @@
     <string name="MAP">MAP</string>
     <string name="COURSES">COURSES</string>
     <string name="COURSEPAPERS">COURSE PAPERS</string>
-    <string name="CALENDAR">CALENDAR</string>
     <string name="HELP">HELP</string>
     <string name="AUTSERVICES">AUT SERVICES</string>
     <string name="CHATBOTTITLE">CHATBOT</string>
     <string name="MAPTITLE">AUT CAMPUS MAPS</string>
     <string name="COURSESTITLE">AUT COURSES</string>
-    <string name="CALENDERTITLE">CALENDAR</string>
-    <string name="TIMETABLE">YOUR TIMETABLE</string>
+    <string name="TIMETABLE">TIMETABLE</string>
     <string name="EVENTS">EVENTS</string>
     <string name="HELPTITLE">HELP</string>
     <string name="ARCHITECTURE">ARCHITECTURE</string>
@@ -71,7 +69,21 @@
     <string name="title_activity_calendar2_button">calendar2_button</string>
     <string name="paper_search">paperSearch</string>
     <string name="google_maps_key">AIzaSyBrrD8s7oksYVEiwWx4yXcqbCHKAx88ojA </string>
-
+    <string name="addcourse">ADD COURSE</string>
+    <string name="editcourse">EDIT COURSE</string>
+    <string name="deletecourse">DELETE COURSE</string>
+    <string name="deletetimetable">DELETE TIMETABLE</string>
+    <string name="coursename">COURSE NAME:</string>
+    <string name="coursecode">COURSE CODE:</string>
+    <string name="location">LOCATION:</string>
+    <string name="day">DAY:</string>
+    <string name="time">TIME:</string>
+    <string name="color">COURSE COLOR:</string>
+    <string name="monday">MONDAY</string>
+    <string name="tuesday">TUESDAY</string>
+    <string name="wednesday">WEDNESDAY</string>
+    <string name="thursday">THURSDAY</string>
+    <string name="friday">FRIDAY</string>
     <!-- Actionbar String-->
     <string name="action_home">actionHome</string>
 
