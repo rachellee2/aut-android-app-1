@@ -74,9 +74,18 @@
 
     <Button
         android:id="@+id/addcourse"
-        android:layout_width="wrap_content"
-        android:layout_height="60dp"
-        android:drawableStart="@android:drawable/ic_input_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"
+        android:drawableStart="@drawable/addclass"
         android:text="@string/addcourse" />
+
+    <Button
+        android:id="@+id/viewcourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple"
+        android:drawableStart="@drawable/viewcourse"
+        android:text="@string/viewcourse" />
 
 </LinearLayout>

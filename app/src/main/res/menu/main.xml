@@ -52,6 +52,12 @@
         app:showAsAction="always"
         ></item>
 
-
+    <item
+        android:id="@+id/viewcourse"
+        android:icon="@drawable/viewcourse"
+        android:title="@string/viewcourse"
+        android:visible="false"
+        app:showAsAction="always"
+        ></item>
 
 </menu>

@@ -22,6 +22,7 @@ public class MondayActivity extends AppCompatActivity {
         menu.findItem(R.id.addclass).setVisible(true);
         menu.findItem(R.id.editcourse).setVisible(true);
         menu.findItem(R.id.deletecourse).setVisible(true);
+        menu.findItem(R.id.viewcourse).setVisible(true);
         return super.onCreateOptionsMenu(menu);
     }
 
