@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 public class AddCourseActivity extends AppCompatActivity {
     DatabaseHelper myDb;
-    EditText editName,editCode,editLocation ,editTime;
+    EditText editName,editCode, editDay, editLocation ,editTime;
     Button btnAddData;
     Button btnviewAll;
 
@@ -27,6 +27,7 @@ public class AddCourseActivity extends AppCompatActivity {
         editName = (EditText)findViewById(R.id.coursename);
         editCode = (EditText)findViewById(R.id.coursecode);
         editLocation = (EditText)findViewById(R.id.courselocation);
+        editDay = (EditText)findViewById(R.id.day);
         editTime = (EditText)findViewById(R.id.time);
         btnAddData = (Button)findViewById(R.id.addcourse);
         btnviewAll = (Button)findViewById(R.id.viewcourse);
@@ -52,14 +53,24 @@ public class AddCourseActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        boolean isInserted = myDb.insertData(editName.getText().toString(),
-                                editCode.getText().toString(),
-                                editLocation.getText().toString(),
-                                editTime.getText().toString());
-                        if(isInserted == true)
-                            Toast.makeText(AddCourseActivity.this,"Data Inserted",Toast.LENGTH_LONG).show();
-                        else
-                            Toast.makeText(AddCourseActivity.this,"Data not Inserted",Toast.LENGTH_LONG).show();
+                        String checkName = editName.getText().toString();
+                        String checkCode = editCode.getText().toString();
+                        String checkDay = editDay.getText().toString();
+                        String checkLocation = editLocation.getText().toString();
+                        String checkTime = editTime.getText().toString();
+
+                        if(checkName.length() != 0 && checkCode.length() != 0 && checkDay.length() != 0 && checkLocation.length() != 0 && checkTime.length() != 0) {
+                            boolean isInserted = myDb.insertData(editName.getText().toString(),
+                                    editCode.getText().toString(),
+                                    editDay.getText().toString(),
+                                    editLocation.getText().toString(),
+                                    editTime.getText().toString());
+                            if(isInserted) {
+
+                                Toast.makeText(AddCourseActivity.this, "Data Inserted", Toast.LENGTH_LONG).show();
+                            }
+                        }else
+                            Toast.makeText(AddCourseActivity.this,"You must enter all fields.",Toast.LENGTH_LONG).show();
                     }
                 }
         );
@@ -79,14 +90,15 @@ public class AddCourseActivity extends AppCompatActivity {
 
                         StringBuffer buffer = new StringBuffer();
                         while (res.moveToNext()) {
-                            buffer.append("Name :"+ res.getString(0)+"\n");
-                            buffer.append("Code :"+ res.getString(1)+"\n");
-                            buffer.append("Location :"+ res.getString(2)+"\n");
-                            buffer.append("Time :"+ res.getString(3)+"\n\n");
+                            buffer.append("Name: "+ res.getString(0)+"\n");
+                            buffer.append("Code: "+ res.getString(1)+"\n");
+                            buffer.append("Day: "+ res.getString(2)+"\n");
+                            buffer.append("Location: "+ res.getString(3)+"\n");
+                            buffer.append("Time: "+ res.getString(4)+"\n\n");
                         }
 
                         // Show all data
-                        showMessage("Data",buffer.toString());
+                        showMessage("Your courses: ",buffer.toString());
                     }
                 }
         );
