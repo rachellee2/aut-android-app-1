@@ -217,6 +217,7 @@ public class CoursesActivity extends AppCompatActivity {
      * @param view view with a page that displays chosen degree's paper information
      */
     public void coursePaperActivity(View view){
+        papersInDegree = null;
         papersInDegree = loadPaperInformation(selectedDegree);
         Intent intent = new Intent(CoursesActivity.this, CoursePapersActivity.class);
         intent.putExtra("mapList", papersInDegree);
@@ -281,8 +282,8 @@ public class CoursesActivity extends AppCompatActivity {
             for(int i = 0; i < this.papersInDepartment.size(); i++){
                 HashMap<String, String> currentPaper = this.papersInDepartment.get(i);
                 if(currentPaper.get("qualification_name").equalsIgnoreCase(degreeName)){
-                    currentPaper.remove("qualification_name");
                     papers.add(currentPaper);
+                    papers.remove("qualification_name");
                 }
             }
         }
