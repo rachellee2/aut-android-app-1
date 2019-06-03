@@ -21,31 +21,32 @@ import android.widget.Toast;
 
 public class autcontact_button extends AppCompatActivity {
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_autcontact_button);
 
+        //gets the button created in xml class
         Button button_hub = findViewById(R.id.buttonCall_Hub);
 
-        // add button listener
+        //when the button is clicked it will call the phone number
         button_hub.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
 
-                Intent callIntent = new Intent(Intent.ACTION_CALL);
-                callIntent.setData(Uri.parse("tel: 0800 288 864"));
-                startActivity(callIntent);
+                Intent callIntent = new Intent(Intent.ACTION_CALL);//recognizes the button click and creates a new intent for a phone call
+                callIntent.setData(Uri.parse("tel: 0800 288 864"));//inputs the phone number into the phone
+                startActivity(callIntent);//starts the call via the phone
 
             }
 
         });
+
         Button button_AUT = findViewById(R.id.buttonCall_AUT);
 
-        // add button listener
         button_AUT.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -58,9 +59,9 @@ public class autcontact_button extends AppCompatActivity {
             }
 
         });
+
         Button button_Int = findViewById(R.id.buttonCall_Int);
 
-        // add button listener
         button_Int.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -74,7 +75,6 @@ public class autcontact_button extends AppCompatActivity {
 
         });
     }
-
 
     public boolean onCreateOptionsMenu(Menu menu)
     {

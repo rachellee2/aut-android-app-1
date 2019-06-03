@@ -39,6 +39,7 @@ public class faq_button extends AppCompatActivity {
 
     }
 
+    //onBClick recognizes a button being clicked and sets the text associated with the button to visible
     public void onBClick() {
         findViewById(R.id.q1).setOnClickListener(new View.OnClickListener() {
 
