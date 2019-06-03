@@ -11,45 +11,57 @@
         android:id="@+id/faqs"
         android:layout_width="302dp"
         android:layout_height="60dp"
-        android:onClick="faqActivity"
-        android:text="@string/FAQ"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="5dp"
         android:textStyle="bold"
         android:background="@drawable/gen_button_all"
+        android:onClick="faqActivity"
+        android:text="@string/FAQ"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.292" />
+        app:layout_constraintVertical_bias="0.09" />
 
     <Button
         android:id="@+id/contactdev"
         android:layout_width="302dp"
         android:layout_height="60dp"
-        android:onClick="contactdevActivity"
-        android:text="@string/CONTACTDEV"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="5dp"
         android:textStyle="bold"
         android:background="@drawable/gen_button_all"
+        android:onClick="contactdevActivity"
+        android:text="@string/CONTACTDEV"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.412" />
+        app:layout_constraintVertical_bias="0.285" />
 
     <Button
         android:id="@+id/autcontact"
         android:layout_width="302dp"
         android:layout_height="60dp"
-        android:onClick="autcontactActivity"
-        android:text="@string/AUTCONTACT"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="5dp"
         android:textStyle="bold"
         android:background="@drawable/gen_button_all"
+        android:onClick="autcontactActivity"
+        android:text="@string/AUTCONTACT"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.535" />
+        app:layout_constraintVertical_bias="0.476" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
