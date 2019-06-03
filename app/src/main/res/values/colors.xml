@@ -8,4 +8,11 @@
     <color name = "statusBar">#7792a8</color>
     <color name = "black">#000000</color>
     <color name="appAccent">#C9E2F7</color>
+    <color name = "purple">#C7C4FF</color>
+    <color name = "pink">#FFC0CB</color>
+    <color name = "orange">#FFB4A2</color>
+    <color name = "yellow">#FFFFEDAB</color>
+    <color name = "green">#D2FACD</color>
+    <color name = "blue">#87CEEB</color>
+    <color name = "grey">#cccccc</color>
 </resources>

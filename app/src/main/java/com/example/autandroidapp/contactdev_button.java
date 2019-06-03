@@ -21,7 +21,7 @@ public class contactdev_button extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contactdev_button);
-        mEditTextTo = findViewById(R.id.edit_text_to);
+        mEditTextTo = findViewById(R.id.edit_text_to);//shows the text area for input from user
         mEditTextSubject = findViewById(R.id.edit_text_subject);
         mEditTextMessage = findViewById(R.id.edit_text_message);
 
@@ -41,7 +41,7 @@ public class contactdev_button extends AppCompatActivity {
         //creates strings for the recipient, subject and message
         String recipientList = mEditTextTo.getText().toString();
         String[] recipients = recipientList.split(",");//this allows for multiple emails to be input
-        //example@gmail.com,
+        //example@gmail.com
         String subject = mEditTextSubject.getText().toString();
         String message = mEditTextMessage.getText().toString();
 
