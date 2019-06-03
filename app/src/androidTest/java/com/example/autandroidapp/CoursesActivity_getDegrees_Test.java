@@ -23,10 +23,10 @@ public class CoursesActivity_getDegrees_Test {
     ArrayList<String> expectedDgrList = new ArrayList<>();
     String fileName = null;
 
-    // This method sets up the necessary data for testing. fileName is science.json and expectedDgrList contains names of degrees in science department.
+    // This method sets up the necessary data for testing. fileName is Science.json and expectedDgrList contains names of degrees in science department.
     @Before
     public void setUp() throws Exception {
-        fileName = "science.json";
+        fileName = "Science.json";
         coursesActivity = coursesActivity_getDegrees_testActivityTestRule.getActivity();
         expectedDgrList.add("Bachelor of Business and Bachelor of Science Conjoint Degrees");
         expectedDgrList.add("Bachelor of Medical Laboratory Science");

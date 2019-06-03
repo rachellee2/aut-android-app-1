@@ -26,7 +26,7 @@ public class CoursesActivity_loadPaperInformation_Test {
     @Before
     public void setUp() throws Exception {
         coursesActivity = coursesActivity_getDegrees_testActivityTestRule.getActivity();
-        fileName = "engineering_computer_and_mathematical_sciences.json";
+        fileName = "Engineering, computer and mathematical sciences.json";
         degreeName = "Bachelor of Computer and Information Sciences";
         expectedPaper = "COMP706";
         coursesActivity.loadDegree(fileName);

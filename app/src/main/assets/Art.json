@@ -1,0 +1,1262 @@
+[
+ {
+   "qualification_name": "Bachelor of Art and Design (Honours)",
+   "paper_name": "Research Methods",
+   "paper_code": "ARDN800",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "An introduction to research methodology and methods. Explores and evaluates models of research, and ethical considerations, appropriate to practice-led research. Provides contextual and theoretical frameworks to allow students to design and undertake independent art, design or cultural and creative research."
+ },
+ {
+   "qualification_name": "Bachelor of Art and Design (Honours)",
+   "paper_name": "Contextual Review",
+   "paper_code": "ARDN808",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Critically consider perspectives and methods for identifying, situating and focusing knowledge in the fields of cultural and creative production, reception and experience. Students will contextually establish a critical position in relation to their practice."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "3D Data Visualisation",
+   "paper_code": "ARDN500",
+   "efts": 0.125,
+   "points": 15,
+   "level": 5,
+   "prescriptor": "Introduces the fundamentals of information theory with a focus on 3D data visualisation from both historical and emerging perspectives. This includes an exploration of relevant trends to form an understanding of the digitization of modern culture, and to contextualise 3D visualisation practices within the broader area of data mapping.  Students engage with practical explorations using real-time rendering and automation to identify and communicate patterns, and to validate and communicate information relevant to a target audience"
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "The Listening Camera",
+   "paper_code": "ARDN501",
+   "efts": 0.125,
+   "points": 15,
+   "level": 5,
+   "prescriptor": "Sound design and audio production are a central component to film making. Students will acquire capabilities in sound design, field and studio recording, digital manipulation, composition, audio playback and installation. Students will then craft a sound scaped story, conveying a sense of place composed from recordings and effects through both artistic and technological methods."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Creative Sound Design I",
+   "paper_code": "ARDN503",
+   "efts": 0.125,
+   "points": 15,
+   "level": 5,
+   "prescriptor": "Introduces the theory and practice of sound design with a focus on mastering basic digital audio recording, editing and mixing skills. Study of key theories and practices of sound design and its application across a range of creative disciplines. Development of practical and conceptual skills through a series of written and practical project briefs."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Introduction to Sustainability",
+   "paper_code": "ARDN504",
+   "efts": 0.125,
+   "points": 15,
+   "level": 5,
+   "prescriptor": "Introduces the origins, basic concepts and constructs of sustainability from scientific, socio-cultural, values and world-view based perspectives.  Develops critical awareness of sustainability from ecological, social, cultural, technological and economic perspectives, including ecological, social and bi-cultural issues specific to Aotearoa, New Zealand."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Digital Fabrication I: 2D to 3D",
+   "paper_code": "ARDN505",
+   "efts": 0.125,
+   "points": 15,
+   "level": 5,
+   "prescriptor": "Introduces fundamental digital fabrication concepts specifically the creation and translation of two-dimensional digitally designed and fabricated forms into three-dimensional object structures.  Rhinoceros 3D software is introduced as a key digital design a tool.  Laser cutting and CNC routing processes are used to produce individual multiple physical objects. 3D structure, mechanical joining techniques and other key digital fabrication principles will be covered."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Introduction to Game and Play Design",
+   "paper_code": "ARDN506",
+   "efts": 0.125,
+   "points": 15,
+   "level": 5,
+   "prescriptor": "Introduces the foundations of game and play design.  Students investigate \"Why We Play\"  (Ludology) and \"The Rules of Play\".  This is followed by Game Design, Playability, Types of Games and Play as a Design Process.  Explorations and conceptualisations of play and game design will be developed through practical experimentation, critical reflection and theory contextualisation."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Introduction to Interaction Design",
+   "paper_code": "ARDN507",
+   "efts": 0.125,
+   "points": 15,
+   "level": 5,
+   "prescriptor": "Develops an understanding of the fundamental theoretical concepts and principles that underpin effective interaction design. Students will explore the importance of understanding human behaviour in design for better user experiences and the practical tools and techniques that are available for designing interactions that are responsive to human needs. The evolving contexts of interaction design are also explored."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Introduction to Social Media Design",
+   "paper_code": "ARDN508",
+   "efts": 0.125,
+   "points": 15,
+   "level": 5,
+   "prescriptor": "Introduces the fundamental concepts, critical contexts and processes extend the adoption of mobile social ePortfolios through to establishing student-generated content.  Students will explore the unique affordances of mobile social media and create ePortfolios that will become the foundation of their learning in this minor."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Oceanic Connections",
+   "paper_code": "ARDN510",
+   "efts": 0.125,
+   "points": 15,
+   "level": 5,
+   "prescriptor": "Engages with leading Maori or Pacific creative practitioners to emphasise collaborative and activist practices of making in order to explore Oceanic stories, practices and ethics. Questions of place, of human connection to the world, are examined through creative practice. Students explore and respond to specific cultural narratives or practices, articulating their learning through making. Delivery of this paper will be made through studio, noho marae, wananga and field trips."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "The Traveller: Site-Related Practices",
+   "paper_code": "ARDN511",
+   "efts": 0.125,
+   "points": 15,
+   "level": 5,
+   "prescriptor": "Utilises the notion of the traveller as an instigator for projects that navigate the spaces of our everyday. A central focus will be on the generation of artwork that explores public sites and social contexts to create innovative temporary art events and projects utilising a breadth of media, materials and methods. The Minor may operate through special projects arising out of professional opportunities and/or public events such as biennales or festivals. The paper will be taught by visual arts and design practitioners that work within the realm of performance design and socially engaged public art practices."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Encountering the Urban",
+   "paper_code": "ARDN512",
+   "efts": 0.125,
+   "points": 15,
+   "level": 5,
+   "prescriptor": "An exploration of how the social, spatial and material richness of cities fosters art and design practices.  Exploration of how such places materialise the prevailing values and ethics organizing our being-together.  Outlining an introductory history of the origins and impulses to urban settlement.  The notion of encounter is foregrounded as a means of becoming-aware of the diversity of cultural, social and spatial patterns found in cities.  This paper introduces mapping and documentation techniques as a means of charting and working creatively with urban encounter."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Conceptualising Visual Information",
+   "paper_code": "ARDN513",
+   "efts": 0.125,
+   "points": 15,
+   "level": 5,
+   "prescriptor": "Introduces the fundamental concepts, methods, and critical contexts that underpin information design. Examines core design processes of analysing, selecting, editing, visualising, and organising information and begins to address strategies to communicate complex information."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Pattern Systems",
+   "paper_code": "ARDN514",
+   "efts": 0.125,
+   "points": 15,
+   "level": 5,
+   "prescriptor": "Emphasises collaborative practices and contemporary ways for reinterpreting and remaking Pacific concepts, in order to invent new modes of expressions and the awareness of interconnecting Pacific stories and concepts.  Explore notions of place and human relationships that connects with Pacific cosmologies, genealogies, and identity.  Students will study different patterns in tattooing, tapa cloths, weaving and lashing in Pacific art and design to understand what they mean; secondly, explore how they are made and develop an understanding of a fabrication system inherent within each pattern. From this each student will develop a concept-product. This may be an ornament to be worn on a part of the body, a textile fabric or a constructed frame that covers the body. \n\nDelivery will be made through lectures, talanoa (talk-stories), wananga and collaborative studio workshops and a field trip."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Experimental Surface Design I",
+   "paper_code": "ARDN517",
+   "efts": 0.125,
+   "points": 15,
+   "level": 5,
+   "prescriptor": "Introduction to the properties of surface pattern and its application in contemporary contexts. Through a series of making workshops students will explore contemporary and traditional methods related to experimental surface pattern fabrication."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Special Topic",
+   "paper_code": "ARDN518",
+   "efts": 0.125,
+   "points": 15,
+   "level": 5,
+   "prescriptor": "Focuses on the negotiation and development of a project within the disciplines of Art or Design of either a theoretical or applied nature. The project will involve research, analysis, creative exploration, documentation, and will result in a resolved body of work."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Motion Capture I",
+   "paper_code": "DIGD506",
+   "efts": 0.125,
+   "points": 15,
+   "level": 5,
+   "prescriptor": "Introduces motion capture theory and practice with a focus on mastering basic technical pipelines for full body motion capture and the application of motion data to virtual characters and objects in 3D software.  Students will explore key theories and practices of motion capture technology and its application across a range of creative disciplines.  This will include the development of practical and conceptual skills through a series of written and practical project briefs."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Introduction to Entrepreneurship and Innovation",
+   "paper_code": "ENTR501",
+   "efts": 0.125,
+   "points": 15,
+   "level": 5,
+   "prescriptor": "The development of a broad understanding of the methods and skills needed for entrepreneurship and innovation and how these can be used to create new products, services, and ventures."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Marketing Insights",
+   "paper_code": "MARS501",
+   "efts": 0.125,
+   "points": 15,
+   "level": 5,
+   "prescriptor": "An introduction to the fundamentals of marketing as a discipline that identifies customer needs and wants, determines which target markets the firm can serve best, and designs appropriate products, services, and communications tailored to these markets.' It provides students the foundations for customer focused value creation."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Visual Arts Studio I",
+   "paper_code": "VSAR501",
+   "efts": 0.25,
+   "points": 30,
+   "level": 5,
+   "prescriptor": "Provides opportunity for students to explore art-making processes, and to investigate and identify the complex of factors involved.  Students learn to generate, evaluate, and develop works of art by exploring relationships between ideas, media, processes, and visual language."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Visual Arts Theory I",
+   "paper_code": "VSAR502",
+   "efts": 0.25,
+   "points": 30,
+   "level": 5,
+   "prescriptor": "This study aims to develop a broad contemporary theoretical and historical awareness of issues relevant to visual arts practice.  Familiarisation with critical concepts, research methods and contexts will enable students to engage with current discussions concerning visual arts culture."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Visual Arts Core Studio",
+   "paper_code": "VSAR503",
+   "efts": 0.375,
+   "points": 45,
+   "level": 5,
+   "prescriptor": "Introduces students to the areas of specialty found within the BVA degree.   Familiarises students with the principles and practice of 2D and 3D disciplines; addressing visual language skills, basic media, method and processes and health and safety issues, enabling students to make an informed choice in their subsequent selection of a major area of study in the degree."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "3D Visualisation Design Methodology",
+   "paper_code": "ARDN601",
+   "efts": 0.125,
+   "points": 15,
+   "level": 6,
+   "prescriptor": "Explores relevant methodologies and project management systems, introduced briefly in earlier papers. Students will identify appropriate 3D visualisation project methods, media and techniques leading to a detailed proposal for a practical 3D visualisation project. The project proposal will be linked closely with the student's overall area of interest."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "The Texture of Time",
+   "paper_code": "ARDN603",
+   "efts": 0.125,
+   "points": 15,
+   "level": 6,
+   "prescriptor": "16mm filmmaking is explored through analogue film processes, camera handling, in camera effects, dark room film processing, film splicing and film editing. This leads to a final screening of a 16mm film created by the students. The paper theoretically considers film as a material that has a texture, physicality and sculptural aspect to it."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Creative Sound Design II",
+   "paper_code": "ARDN605",
+   "efts": 0.125,
+   "points": 15,
+   "level": 6,
+   "prescriptor": "Develops practical and conceptual skills for the recording, processing and presentation of digital audio data. Study of key theories and practices with a focus on experimental composition techniques, formal film sound design techniques and methods of final audio preparation for specific sound design practices including gaming, moving image (digital and celluloid), performance and installation."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Creative Sound Design: Spatialising Sound",
+   "paper_code": "ARDN606",
+   "efts": 0.125,
+   "points": 15,
+   "level": 6,
+   "prescriptor": "Study of the theory and practice of spatialising sound as an aspect of creative sound design for moving image, performance, installation and experimental practice. Study of key theories and practices with a focus on developing technical expertise in composition techniques and sound spatialising, as well as exploring innovative approaches to its application across a range of creative disciplines."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Design and Society",
+   "paper_code": "ARDN607",
+   "efts": 0.125,
+   "points": 15,
+   "level": 6,
+   "prescriptor": "Develops a critical awareness of contemporary social issues.  Introduces fundamental concepts and theoretical frameworks that underpin art and design practices aiming for social and cultural change for sustainability.  Develops a critical awareness of art and design practices to influence long-term social sustainability both with global and local focus.  Explores a range of available art and design methods and tools used to initiate and facilitate social transformation for sustainability."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Design and Ecology",
+   "paper_code": "ARDN608",
+   "efts": 0.125,
+   "points": 15,
+   "level": 6,
+   "prescriptor": "Develops a critical awareness of key principles and concepts of ecology and explores how these may be integrated with conceptual or applied design practices.  Investigates, evaluates and utilises a variety of fundamental sustainable design frameworks that are grounded in ecology.  These are examined as key drivers in art and design for ecology practice.  Explores the relevant social and cultural aspects of design in an ecological context."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Digital Fabrication II: 3D Digital Modelling",
+   "paper_code": "ARDN609",
+   "efts": 0.125,
+   "points": 15,
+   "level": 6,
+   "prescriptor": "Introduces key 3D digital modelling software and processes for the creation, exploration and development of digitally fabricated objects.  Solidworks and/or Rhino 3D, plus other key 3D digital modelling processes are used to explore and experiment with ideas and concepts leading to a number of key art or design proposals. Students will also use simple 3D printing tools to develop and communicate ideas and concepts."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Digital Fabrication III: Additive Manufacturing",
+   "paper_code": "ARDN610",
+   "efts": 0.125,
+   "points": 15,
+   "level": 6,
+   "prescriptor": "Explores design for Additive Manufacturing (sometimes known as Rapid Prototyping). This includes advanced CAD modelling, and Additive Manufacturing tools and processes, including Fused Deposition Modelling (FDM), Laser Sintering System (SLS) and Laser Melting System (SLM.) Students will be encouraged to explore and experiment with key concepts, including parametric CAD modeling and mass-customisation, leading to the production of experimental art and design project/s."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Contexts of Game and Play",
+   "paper_code": "ARDN611",
+   "efts": 0.125,
+   "points": 15,
+   "level": 6,
+   "prescriptor": "Examines a variety of and game play situations across a multiple of platforms, media and contexts including key play behavior's within game and play communities. Students will also be introduced to game and play development methodologies. Study areas include: computer, arcade and mobile games, tabletop, role-playing and live action games, toys and interfaces, card games. The exploration will evolve around individual mini projects."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Interaction Design Methods",
+   "paper_code": "ARDN613",
+   "efts": 0.125,
+   "points": 15,
+   "level": 6,
+   "prescriptor": "Develops an understanding of how to identify, select and apply appropriate research and design methods for effective interaction design. Students will apply various interaction design techniques to generate and define the structure and behaviour of an interactive system supporting particular user goals and motivations. Students will employ a variety of sketching and prototyping methods to evolve and evaluate design concepts with users. Students will also reflect on the strengths and weaknesses of different tools and methods."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Interaction Design Strategy",
+   "paper_code": "ARDN614",
+   "efts": 0.125,
+   "points": 15,
+   "level": 6,
+   "prescriptor": "Focuses on the increasingly strategic nature of interaction design, specifically locating design questions, decisions and activities within a broader organisational or social change context. Investigates the process of defining what is designed and why. Covers tools available for identifying the value proposition, defining project goals, scope and constraints, managing clients and stakeholders and bridging cross-disciplinary teams. In addition communicating design ideas and designing the design process to support stakeholder alignment, implementation, adoption and ongoing design-in-use are also covered."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Performativity",
+   "paper_code": "ARDN617",
+   "efts": 0.125,
+   "points": 15,
+   "level": 6,
+   "prescriptor": "Examines a range of 'texts' including films, performances, installations as well as written material.  Theories of performativity, liveness, event, duration, interactivity and documentation will be explored as well as the paradigms of performance, which shape contemporary creative and academic practice across a range of disciplines.  Considers temporality and spatiality in their performative dimensions."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "The Collaborator: Participatory Practices",
+   "paper_code": "ARDN621",
+   "efts": 0.125,
+   "points": 15,
+   "level": 6,
+   "prescriptor": "Focuses on participatory and social art practices. It will address what it means to create a project that involves others, as potential collaborators, participants and audience. Working with communities of people, makers and innovators from local communities and industry, we will develop projects that derive from these relationships. We will be involved in co-operative making and production - and as a team of artists and designers will initiate social interventions and co-create multidisciplinary event-based art projects that draw upon current themes that inhabit these contexts. Community relations will form the basis for establishing dialogue, discussion, negotiation, debate and facilitation of practice."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Urban Ecologies",
+   "paper_code": "ARDN623",
+   "efts": 0.125,
+   "points": 15,
+   "level": 6,
+   "prescriptor": "Introduces city organisation from a historical perspective. Globalization and urban fragmentation or dispersal is considered.  Proposals that urban environments are ecologies whose systematic and complex interaction fosters differing living possibilities.  The effects of flows, networks, social media, mobilities, technologies, transports, infrastructures and natures will be analysed.  Students will craft creative, ecological interventions, tapping existing city networks, communities and associational cultures. An emphasis is made on the role of art and design practices for associational worlds and collectives locally and internationally."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "The Urban Imagined",
+   "paper_code": "ARDN624",
+   "efts": 0.125,
+   "points": 15,
+   "level": 6,
+   "prescriptor": "Explores key representations of the urban, considering cities to be complexly constructed through image and imagination and positions the imaginary as central to urban experience and social life.  Working with literature, film, visual arts, digital mapping, the paper will foreground how communities and subjectivities are imagined and enacted in a range of city contexts."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Exploring Visual Information II",
+   "paper_code": "ARDN626",
+   "efts": 0.125,
+   "points": 15,
+   "level": 6,
+   "prescriptor": "Examines the way information communicates in its various forms, with an emphasis on making complex information easier for audiences to understand and use it. Students will undertake a practical project in a range of information environments, where experimentation, physical prototyping, creative problem solving and audience understanding are explored."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Special Topic A",
+   "paper_code": "ARDN627",
+   "efts": 0.25,
+   "points": 30,
+   "level": 6,
+   "prescriptor": "Students will develop a large-scale project within the area of Art or Design of either a theoretical or practical nature.  The project will involve creative practice, research analysis, documentation and will result in a well-articulated final project."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Special Topic B",
+   "paper_code": "ARDN628",
+   "efts": 0.375,
+   "points": 45,
+   "level": 6,
+   "prescriptor": "Students will develop a large-scale project within the area of Art or Design of either a theoretical or practical nature.  The project will involve creative practice, research analysis, and documentation and will result in a well-articulated final project."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Spatial Systems",
+   "paper_code": "ARDN630",
+   "efts": 0.125,
+   "points": 15,
+   "level": 6,
+   "prescriptor": "Offers a detailed and practical engagement with a specific aspect of Pacific and Oceanic thought. \nStudents will study Pacific patterns and performance to articulate an understanding of space. Space will be studied as an apparatus that draws an outline around performance and rituals, as well as a patterning system that interweaves through bodies and social structures. Through this students will understand the relationship between space, time, bodies and patterns in the environment. Students will design and implement an installation using sound, video and performance. Collaboration, collective models and approaches are utilised to realise practice-based projects."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "The Lucid Image",
+   "paper_code": "ARDN631",
+   "efts": 0.125,
+   "points": 15,
+   "level": 6,
+   "prescriptor": "Questions 'why make images?' Students will develop a practical awareness of the relationships between their own photographic production and its specific contextual output (i.e.: 'the documentary moment', 'the fashion shoot', 'the advertising brief' etc.). The paper focuses on developing visual articulation skills as they relate to a these specific contexts. Particular attention will be directed towards why some images operate more 'lucidly' than others.  Students will further develop their working knowledge of the technical fundamentals of photography, while also being introduced the basics of studio lighting.  The curriculum is delivered through applied practical workshops that focus on digital technologies, lighting technologies, post-production, editing, and critical self-reflection."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "The Manipulated Image",
+   "paper_code": "ARDN632",
+   "efts": 0.125,
+   "points": 15,
+   "level": 6,
+   "prescriptor": "This paper explores our image-saturated world by looking at how photographs operate within unique contemporary political, social and cultural contexts.  The paper will highlight how photographic imagery, within art and design practices, is able to promote precise techniques of seeing, and thinking.  Accordingly, developing digital technologies, ambient lighting and editing will be covered.  The curriculum is delivered through applied practical workshops, which develop students' knowledge surrounding the fundamental technologies of the camera and its relationship to available light."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Experimental Surface Design II",
+   "paper_code": "ARDN633",
+   "efts": 0.125,
+   "points": 15,
+   "level": 6,
+   "prescriptor": "Explores the holistic nature of surface design and its capacity to engage with all the senses. This paper will focus on the physical and sensual properties of designed surfaces through the generation of prototypes and test samples."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Experimental Surface Design III",
+   "paper_code": "ARDN634",
+   "efts": 0.125,
+   "points": 15,
+   "level": 6,
+   "prescriptor": "Investigates surface design at a more advanced level. Students will explore speculative design approaches with outcomes that have the potential for a variety of applications.  Utilising a range of materials and processes a series of experimental fabrications will be developed."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Special Topic",
+   "paper_code": "ARDN635",
+   "efts": 0.125,
+   "points": 15,
+   "level": 6,
+   "prescriptor": "Focuses on the negotiation and development of a project within the disciplines of Art or Design of either a theoretical or applied nature. The project will involve research, analysis, creative exploration, documentation, and will result in a resolved body of work."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Strategic Design",
+   "paper_code": "DESN601",
+   "efts": 0.125,
+   "points": 15,
+   "level": 6,
+   "prescriptor": "An examination of the conceptual frameworks, methodologies and processes of design, their management and business applications. The focus is on how changes in social environments, business models and manufacturing technologies impact on the management of design."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Visual Communication in Business",
+   "paper_code": "DESN602",
+   "efts": 0.125,
+   "points": 15,
+   "level": 6,
+   "prescriptor": "An exploration of visual communication in business contexts. The focus is on application of principles of visual language, graphic design, typography and composition, as well as visual communication tools, software and processes. Students undertake a visual communication project for a business or organisation."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Motion Capture II",
+   "paper_code": "DIGD605",
+   "efts": 0.125,
+   "points": 15,
+   "level": 6,
+   "prescriptor": "Develops practical and conceptual skills for exploring a range of experimental visualisations for motion capture data. This will include a study of key theories and practices in motion capture and experimental 3D practice, with a particular focus on utilizing 3D dynamic and simulation effects in conjunction with motion-captured data and audio. Exploration of it application across a range of disciplines is encouraged including 3D animation, digital visual effects, pre-visualisation, virtual production, gaming, performance and virtual reality and motion studies"
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Motion Capture Live",
+   "paper_code": "DIGD606",
+   "efts": 0.125,
+   "points": 15,
+   "level": 6,
+   "prescriptor": "Explores the theory and practice of the use of motion capture in live data-streaming and virtual production design situations, including pre- and post-visualisation, virtual reality, digitally-augmented live performance and experimental practice. Focus will be on both developing content for the live streaming of motion capture data into a range of software applications, as well as exploring innovative approaches to its application across a range of creative and design disciplines."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Visual Arts Studio II",
+   "paper_code": "VSAR601",
+   "efts": 0.5,
+   "points": 60,
+   "level": 6,
+   "prescriptor": "Students clarify areas of personal interest for art activity, and develop methods and skills appropriate to their art-making purposes.  Students examine and investigate the work of art as an exploration of visual, media, and conceptual relationships.  Through integrated processes of exploration, analysis and synthesis, students learn how to focus and develop a studio practice."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Visual Arts Theory II",
+   "paper_code": "VSAR602",
+   "efts": 0.25,
+   "points": 30,
+   "level": 6,
+   "prescriptor": "Develops a focused theoretical, historical and philosophical awareness of issues relevant to selected areas of visual arts practice.  Students will conduct in-depth research on specific topic areas related to their personal interests in contemporary art practices, art histories and theories."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Cinema Production and Postproduction",
+   "paper_code": "ARDN701",
+   "efts": 0.125,
+   "points": 15,
+   "level": 7,
+   "prescriptor": "A self-determined film or cinematic project, generated from the Cinema Preproduction paper will be undertaken. Film industry models of best practice: including working with production notes, collaboration and benchmarks will be explored. There is an emphasis on team-based approaches to making. This includes advanced production/post-production techniques, and high-end pipeline delivery. The final work will be presented in a screening/installation context."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Creative Entrepreneurial Project",
+   "paper_code": "ARDN702",
+   "efts": 0.125,
+   "points": 15,
+   "level": 7,
+   "prescriptor": "A negotiated creative entrepreneurial project that is informed by prior knowledge from papers offered in the Creative Entrepreneurship minor. Students will work and communicate in a professional manner to develop a small 'prototype' entrepreneurial activity or business venture in relation to their individual art and design practice."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "The Event: Collaborative Practices",
+   "paper_code": "ARDN711",
+   "efts": 0.125,
+   "points": 15,
+   "level": 7,
+   "prescriptor": "Focuses on the staging of a collaborative pop-up event or creative project situated in a public setting. Projects will respond to selected themes or external opportunities, such as alternative sites, festivals or curatorial projects - and potentially include aspects of publication, proposition, participation, exhibition practice, collaboration, expanded drawing, site, improvisation, installation, performance, documentation and documentary. External perspectives will be incorporated into the collective voice, such as demographic, cultural, political, ethical and social factors."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Thought and Practice",
+   "paper_code": "ARDN714",
+   "efts": 0.125,
+   "points": 15,
+   "level": 7,
+   "prescriptor": "Emphasises collaborative discursive practices with contemporary Pacific artists and thinking through various strategies that transforms traditional knowledge by reinterpreting and remaking Pacific concepts in order to invent new modes of expressions and the awareness of interconnecting Pacific stories and concepts.  Explore notions of place and human relationships that connects with Pacific cosmologies, genealogies, and identity. The sessions will be carried out in talanoa (talk) of invited Pacific artists, designers, performers and architects talk about their practice. Talanoa sessions will take place in artists' studios. Students are expected to present a dossier on a chosen Pacific artist examining their practice and issues related to systems explored in the previous course papers in the series. An important aspect of the final assignment is a stated understanding of the Contemporary Pacific."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "The Directed Image",
+   "paper_code": "ARDN716",
+   "efts": 0.125,
+   "points": 15,
+   "level": 7,
+   "prescriptor": "This paper focuses on realising a self-determined photographic campaign in all its multilayered complexity.  Utilising specific photographic contexts, students will critically reflect on the varying roles and processes implicit within a photographic campaign.  Working collaboratively, students will develop a cohesive photographic project addressing the idea pitch, content, context, style, technology and output. The curriculum will be delivered through advanced practical, contextual workshops, and critical self-reflection."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Experimental Surface Design IV",
+   "paper_code": "ARDN717",
+   "efts": 0.125,
+   "points": 15,
+   "level": 7,
+   "prescriptor": "A creative and experimental surface project is undertaken. The project will be informed by, and build on knowledge and experience from the previous papers offered in the Experimental Surface Design minor. Students will clarify their intentions and investigate their own design processes through the creation of physical prototypes and/or artifacts/works."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Special Topic",
+   "paper_code": "ARDN718",
+   "efts": 0.125,
+   "points": 15,
+   "level": 7,
+   "prescriptor": "Focuses on the negotiation and development of a project within the disciplines of Art or Design of either a theoretical or applied nature. The project will involve research, analysis, creative exploration, documentation, and will result in a resolved body of work."
+ },
+ {
+   "qualification_name": "Bachelor of Visual Arts",
+   "paper_name": "Integrated Studio VI",
+   "paper_code": "ARDN719",
+   "efts": 0.25,
+   "points": 30,
+   "level": 7,
+   "prescriptor": "Focuses on the undertaking of an integrated, collaborative and interdisciplinary art and design project with students from across the school of art and design, and/or with students from other discipline areas and programmes. Project/s may be centred on a unique problem or opportunity developed and undertaken in partnership with an external industry partner or community group."
+ },
+ {
+   "qualification_name": "Master of Arts Management",
+   "paper_name": "Design Systems and Business",
+   "paper_code": "119204",
+   "efts": 0.125,
+   "points": 15,
+   "level": 9,
+   "prescriptor": "Focuses on a critical analysis and application of design and management systems in new technologies, economic and business concepts, materials and services, design ideation and development practices, commercialisation, socio-cultural models and design integration in developing design cultures and design-led companies."
+ },
+ {
+   "qualification_name": "Master of Arts Management",
+   "paper_name": "Strategic Innovation",
+   "paper_code": "119206",
+   "efts": 0.125,
+   "points": 15,
+   "level": 9,
+   "prescriptor": "Focuses on a study of the field of design systems for the analysis of relations between user needs, technology and design thinking, for enhancing innovation, product development and commercialisation."
+ },
+ {
+   "qualification_name": "Master of Arts Management",
+   "paper_name": "The Contemporary Creative Organisation",
+   "paper_code": "119300",
+   "efts": 0.25,
+   "points": 30,
+   "level": 9,
+   "prescriptor": "Critically examines issues relating to the operation of organisations in the cultural and creative sectors; exploring and critiquing current practices and organizational methods.  Develops ethically sound decision-making, leadership and administration skills appropriate to these sectors."
+ },
+ {
+   "qualification_name": "Master of Arts Management",
+   "paper_name": "The Nature of the Cultural and Creative Industries",
+   "paper_code": "119301",
+   "efts": 0.25,
+   "points": 30,
+   "level": 9,
+   "prescriptor": "Critically examines contemporary policies and theories in New Zealand relevant to the creative industries and cultural sector, and explores how they may be engaged in arts managerial practice. Examines and critiques the wider social and political contexts that impact on the arts sector, including the influence of cultural policy, understanding the legal system, the media, and governance structures."
+ },
+ {
+   "qualification_name": "Master of Arts Management",
+   "paper_name": "Practical Project or Internship",
+   "paper_code": "119302",
+   "efts": 0.25,
+   "points": 30,
+   "level": 9,
+   "prescriptor": "Develops abilities to rigorously investigate research and enhance best practice in a chosen discipline field. Provides an opportunity to work practically in areas studied in theory, either through an internship or by undertaking a practical research project within a specified organisation in the creative and cultural industries."
+ },
+ {
+   "qualification_name": "Master of Arts Management",
+   "paper_name": "Leadership in Creative Organisations",
+   "paper_code": "119303",
+   "efts": 0.125,
+   "points": 15,
+   "level": 9,
+   "prescriptor": "Examines leadership in the context of art and cultural activities; including moving from vision to action; motivating and leading people; leadership and interpersonal skills; leadership and team building in arts organisations. Critiques contemporary ideas on leadership and development in the creative sectors with a focus on innovation and strategic organizational/management practices."
+ },
+ {
+   "qualification_name": "Master of Arts Management",
+   "paper_name": "Marketing the Creative Organisation",
+   "paper_code": "119304",
+   "efts": 0.125,
+   "points": 15,
+   "level": 9,
+   "prescriptor": "Examines and applies theories of marketing to cultural and creative industry organisations with a focus on audience development, developing and implementing marketing strategies and marketing plans, and building relationships with customers."
+ },
+ {
+   "qualification_name": "Master of Arts Management",
+   "paper_name": "Entrepreneurship in the Cultural and Creative Industries",
+   "paper_code": "119305",
+   "efts": 0.125,
+   "points": 15,
+   "level": 9,
+   "prescriptor": "Critically examines entrepreneurship, including new venture creations; management of creativity and innovation; and psychological and sociological understanding of cultural entrepreneurs and the environments with which they interact. Provides the tools necessary to manage new venture development in the arts and cultural sectors."
+ },
+ {
+   "qualification_name": "Master of Arts Management",
+   "paper_name": "Curatorial Strategy",
+   "paper_code": "119306",
+   "efts": 0.25,
+   "points": 30,
+   "level": 9,
+   "prescriptor": "Focuses on matters critical to the effective realisation of curatorial initiatives: from vision to reality; concept to action; dealing with stakeholders; project leadership, communication and interpersonal skills. Examines critical frameworks of curatorial practices. Covers strategies for initiating, researching and managing contemporary projects including planning, proposal writing, funding, marketing, installation/events and documentation."
+ },
+ {
+   "qualification_name": "Master of Arts Management",
+   "paper_name": "Special Topic A",
+   "paper_code": "119308",
+   "efts": 0.125,
+   "points": 15,
+   "level": 9,
+   "prescriptor": "Provides the opportunity to do further research on a topic of interest and to develop specific focused knowledge and skills within the area of specialisation and relating to the overall programme aims."
+ },
+ {
+   "qualification_name": "Master of Arts Management",
+   "paper_name": "New Media and Society",
+   "paper_code": "149112",
+   "efts": 0.125,
+   "points": 15,
+   "level": 9,
+   "prescriptor": "Critically assesses a series of current debates over the role of new media in society. Constructs and fosters an analytical approach to studying the notion that new media are having an increasing 'impact' upon media communication, commerce, work, politics and everyday life. Interrogates and appraises the role of the Internet, and its various applications, via a series of topics at the forefront of new media analysis, including media convergence, a network society and changing experiences of time, space and virtuality."
+ },
+ {
+   "qualification_name": "Master of Arts Management",
+   "paper_name": "Critiquing Creative Organisations",
+   "paper_code": "149122",
+   "efts": 0.125,
+   "points": 15,
+   "level": 9,
+   "prescriptor": "Critically assesses the way that organisational life is constituted communicatively, with particular reference to creative organisations. Constructs and fosters an analytical approach to the study of research findings in business and organisational behaviour as it pertains to the creative industries."
+ },
+ {
+   "qualification_name": "Master of Arts Management",
+   "paper_name": "The Creative Industries, Culture and the Marketplace",
+   "paper_code": "149128",
+   "efts": 0.125,
+   "points": 15,
+   "level": 9,
+   "prescriptor": "Explores the historical role of culture in market societies with particular focus on the relationship between culture and modernity / post-modernity. Within this broad theoretical framework it critiques Institutionalised culture, and investigates the creative marketplace in New Zealand and globally."
+ },
+ {
+   "qualification_name": "Master of Design",
+   "paper_name": "Research Methods",
+   "paper_code": "ARDN800",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "An introduction to research methodology and methods. Explores and evaluates models of research, and ethical considerations, appropriate to practice-led research. Provides contextual and theoretical frameworks to allow students to design and undertake independent art, design or cultural and creative research."
+ },
+ {
+   "qualification_name": "Master of Design",
+   "paper_name": "Reading Paper",
+   "paper_code": "ARDN803",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "A guided readings paper.  Students analyse directed and self-directed discipline theories, concepts and practices, and develop advanced knowledge in an area relevant to their independent art or design research topic."
+ },
+ {
+   "qualification_name": "Master of Design",
+   "paper_name": "Collaborative Design",
+   "paper_code": "ARDN804",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Actively engage in design thinking and making as a member of a team.  Contribute to a design project through a multidisciplinary collaborative approach that combines theory and practice."
+ },
+ {
+   "qualification_name": "Master of Design",
+   "paper_name": "Coding for Artists and Designers",
+   "paper_code": "ARDN807",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Critically engage in the imaginative potential of generative art, visualizations and computational design. Explore and adapt the creative potential of 'bleeding-edge' technologies in human-computer interaction through artistic expression."
+ },
+ {
+   "qualification_name": "Master of Design",
+   "paper_name": "Contextual Review",
+   "paper_code": "ARDN808",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Critically consider perspectives and methods for identifying, situating and focusing knowledge in the fields of cultural and creative production, reception and experience. Students will contextually establish a critical position in relation to their practice."
+ },
+ {
+   "qualification_name": "Master of Design",
+   "paper_name": "Soundculture and Sonic Practice",
+   "paper_code": "ARDN809",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Critically explore approaches to aural culture and sonic practices, utilising established and experimental applications of audio technologies. Apply advanced understanding of the influence and effect of sound in the design of soundculture, creative artefacts and Taonga."
+ },
+ {
+   "qualification_name": "Master of Design",
+   "paper_name": "Mediated Practice",
+   "paper_code": "ARDN812",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Critically investigate immersive and experiential practices and explore their potential to engage people in culturally located linear and nonlinear narrative contexts. Practice-based exploration of a range of mediated approaches to storytelling."
+ },
+ {
+   "qualification_name": "Master of Design",
+   "paper_name": "Curatorial Practice",
+   "paper_code": "ARDN814",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Exploration of perspectives and strategies critical in the planning and realisation of curatorial projects. Establish the conditions and strategically develop a blueprint for the creation of a curatorial project."
+ },
+ {
+   "qualification_name": "Master of Design",
+   "paper_name": "Design Practice I",
+   "paper_code": "DESN800",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Generate design research through creative practice that explores making processes and contexts, to establish potential networks for reflective enquiry."
+ },
+ {
+   "qualification_name": "Master of Design",
+   "paper_name": "Design Practice II",
+   "paper_code": "DESN801",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Establish the viability of a sustained piece of design research. Generate research through creative practice that explores making processes and contexts to focus reflective enquiry."
+ },
+ {
+   "qualification_name": "Master of Design",
+   "paper_name": "Design Histories",
+   "paper_code": "DESN803",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Students critically engage with their broader disciplinary context via locating, documenting, analysing and disseminating the work of culturally and professionally significant individuals or companies who have contributed to the historical or contemporary practice of design in New Zealand."
+ },
+ {
+   "qualification_name": "Master of Design",
+   "paper_name": "Design for Social Impact",
+   "paper_code": "DESN804",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Students apply creative, practice-based processes, within cooperative and collaborative environments to generate design research directed towards positive social impact across a broad a spectrum of contexts or within a specific context."
+ },
+ {
+   "qualification_name": "Master of Design",
+   "paper_name": "Design Practice for Health",
+   "paper_code": "DESN805",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Critically analyse how design for health encompasses multiple practice-based and theoretical contexts. Test and reflect on how that nexus drives processes and design outcomes in the sector.  Theoretically and practically explore the feasibility of creative design concepts or proposals for health and wellbeing, in order to investigate future implications and outcomes for users."
+ },
+ {
+   "qualification_name": "Master of Design",
+   "paper_name": "Design For Health and Wellbeing",
+   "paper_code": "DESN806",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Evaluate design approaches, which consider the range of social, economic and environmental issues that impact health and wellbeing. Critically establish the feasibility of targeted design strategies and approaches within the contexts of health and wellbeing."
+ },
+ {
+   "qualification_name": "Master of Design",
+   "paper_name": "Game Design Practices",
+   "paper_code": "DESN808",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Critically engage with game theory and the history of game design in order to investigate interactive and immersive game-based technologies. Conduct practice-based research into the creation of game-based digital environments and scenarios, which focus on non-linear storytelling, interaction and experience design."
+ },
+ {
+   "qualification_name": "Master of Design",
+   "paper_name": "Virtual Production Practices",
+   "paper_code": "DESN809",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Practice-based exploration of the immersive and narrative potential of virtual production technologies. Explore the interface between human interaction, movement and performance, and virtual production. Investigate innovative approaches and uses of virtual production technologies, such as virtual reality, augmented reality, motion-capture, and interactive gameplay, across art and design based practices."
+ },
+ {
+   "qualification_name": "Master of Design",
+   "paper_name": "Strategic Design",
+   "paper_code": "DESN810",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Investigate through integrative and creative design approaches, the complex web of strategic relationships and opportunities existing within the context of business. Critically combine theory and practice to produce creative, strategic actions that highlight key opportunities for organisations."
+ },
+ {
+   "qualification_name": "Master of Design",
+   "paper_name": "Design Innovation",
+   "paper_code": "DESN811",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Evaluate and analyse design approaches that are solution focused, and action oriented.\nExplore through design-thinking methods for effective strategy development and organizational change.  Critically consider how design practices can lead, manage, create and innovate experiences optimized for human interaction, including  the creation of new technology products, services and environments."
+ },
+ {
+   "qualification_name": "Master of Design",
+   "paper_name": "Design Futures",
+   "paper_code": "DESN812",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Critically investigate new design practices in contexts, which may include ecological, social, cultural and economic futures. Apply design theory and innovative practices towards speculative ideas production through prototyping objects, experiences and environments for the near and far future."
+ },
+ {
+   "qualification_name": "Master of Design",
+   "paper_name": "Research Methods and Indigenous Methodologies",
+   "paper_code": "MAOR810",
+   "efts": 0.25,
+   "points": 30,
+   "level": 8,
+   "prescriptor": "This course explores a range of research methods and methodologies. A particular focus will be on methodologies that frame indigenous research."
+ },
+ {
+   "qualification_name": "Master of Design",
+   "paper_name": "Design Project",
+   "paper_code": "DESN998",
+   "efts": 0.75,
+   "points": 90,
+   "level": 9,
+   "prescriptor": "Undertake self-directed research within a project/team based practice, located within appropriate critical, methodological, and other relevant contexts. Students participate in analytical-critical discussion about the broader project and research within cooperative and collaborative environments and present findings in an appropriate and professional manner."
+ },
+ {
+   "qualification_name": "Master of Design",
+   "paper_name": "Design Thesis",
+   "paper_code": "DESN999",
+   "efts": 1,
+   "points": 120,
+   "level": 9,
+   "prescriptor": "Professionally conduct, resolve and disseminate a self-directed thesis that operates within critical, methodological and other relevant contexts to design. The thesis document, or artefact(s) and exegesis, contains an intellectual enquiry of an appropriate topic. Outcomes demonstrate leadership and responsibility in ethical modes of research."
+ },
+ {
+   "qualification_name": "Master of Performance and Media Arts",
+   "paper_name": "Research, Context and Methods",
+   "paper_code": "119101",
+   "efts": 0.25,
+   "points": 30,
+   "level": 9,
+   "prescriptor": "Addresses the interrelationship between practice and theory. Explores through theoretical and practice-based means, contextual and methodological research procedures appropriate to various disciplines that feed performance and media arts, and appropriate to the student's research purposes and contexts. Develops an understanding of the principles, approaches and processes of undertaking research in the field of performance and media arts in conjunction with the Research Project paper."
+ },
+ {
+   "qualification_name": "Master of Performance and Media Arts",
+   "paper_name": "Space, Image, Sound and Performance",
+   "paper_code": "119103",
+   "efts": 0.125,
+   "points": 15,
+   "level": 9,
+   "prescriptor": "Engages at an advanced level with the interrelationship of space, image, sound and performance through performative and/or installation projects. Students will pursue research, innovation and experimentation in their approaches across a range of media, including moving image and sound. Focuses on advanced performative practices as they relate to a variety of spaces and sites in dance, theatre, gallery and cultural contexts."
+ },
+ {
+   "qualification_name": "Master of Performance and Media Arts",
+   "paper_name": "Emerging Paradigms of Performance",
+   "paper_code": "119104",
+   "efts": 0.125,
+   "points": 15,
+   "level": 9,
+   "prescriptor": "Facilitates investigations into emerging paradigms of performance that are shaping contemporary artistic and academic practice. Considers temporality and spatiality in their performative dimensions. Underpinning the thematic approach of these reading and research sessions is an opportunity for students to critically engage with and expand the frameworks of their performance and art making."
+ },
+ {
+   "qualification_name": "Master of Performance and Media Arts",
+   "paper_name": "Performing Bodies",
+   "paper_code": "119105",
+   "efts": 0.125,
+   "points": 15,
+   "level": 9,
+   "prescriptor": "Investigates and critically analyses the performing body. Interrelationships between movement, body, time and performance in performative practice will be explored in depth.  Socio-cultural, historical and contemporary perspectives will be key as students interrogate and differentiate the roles and identities of performers and media in collaborative performance."
+ },
+ {
+   "qualification_name": "Master of Performance and Media Arts",
+   "paper_name": "Interactive Performance and Media Arts",
+   "paper_code": "119106",
+   "efts": 0.125,
+   "points": 15,
+   "level": 9,
+   "prescriptor": "Focuses on interactive performance or the engagement between the body, interactive media technologies, and performance. Fosters innovation and the creation of new knowledge in the engagement of performative practice with digital and interactive technologies. The specific approach varies each year as new opportunities and technologies become available. An advanced analysis of authenticity, identity, memory, liveness, immediacy, mediated time, interface, and interactivity will be undertaken."
+ },
+ {
+   "qualification_name": "Master of Performance and Media Arts",
+   "paper_name": "Thesis",
+   "paper_code": "119110",
+   "efts": 1,
+   "points": 120,
+   "level": 9,
+   "prescriptor": "Students undertake research in the field of performance and media arts, which contributes to the development of advanced knowledge in the chosen topic. Development of the thesis is a candidate-directed process, supported by supervision and peer critique. The thesis may be structured with practical and written components in proportion appropriate to the research aims, contexts and methods."
+ },
+ {
+   "qualification_name": "Master of Performance and Media Arts",
+   "paper_name": "Special Topic A",
+   "paper_code": "119308",
+   "efts": 0.125,
+   "points": 15,
+   "level": 9,
+   "prescriptor": "Provides the opportunity to do further research on a topic of interest and to develop specific focused knowledge and skills within the area of specialisation and relating to the overall programme aims."
+ },
+ {
+   "qualification_name": "Master of Visual Arts",
+   "paper_name": "Research Methods",
+   "paper_code": "ARDN800",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "An introduction to research methodology and methods. Explores and evaluates models of research, and ethical considerations, appropriate to practice-led research. Provides contextual and theoretical frameworks to allow students to design and undertake independent art, design or cultural and creative research."
+ },
+ {
+   "qualification_name": "Master of Visual Arts",
+   "paper_name": "Ethics in Research",
+   "paper_code": "ARDN801",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Contexts, methods and the impact of applied ethics in relation to art or design research."
+ },
+ {
+   "qualification_name": "Master of Visual Arts",
+   "paper_name": "Directed Studies Project",
+   "paper_code": "ARDN802",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Student-directed, independent research art or design project with supervision and guidance from faculty."
+ },
+ {
+   "qualification_name": "Master of Visual Arts",
+   "paper_name": "Reading Paper",
+   "paper_code": "ARDN803",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "A guided readings paper.  Students analyse directed and self-directed discipline theories, concepts and practices, and develop advanced knowledge in an area relevant to their independent art or design research topic."
+ },
+ {
+   "qualification_name": "Master of Visual Arts",
+   "paper_name": "Research Methods and Indigenous Methodologies",
+   "paper_code": "MAOR810",
+   "efts": 0.25,
+   "points": 30,
+   "level": 8,
+   "prescriptor": "This course explores a range of research methods and methodologies. A particular focus will be on methodologies that frame indigenous research."
+ },
+ {
+   "qualification_name": "Master of Visual Arts",
+   "paper_name": "Visual Arts Studio A",
+   "paper_code": "VSAR800",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Conduct research through art practice that explores potentials for image-making, and so creates and articulates a preliminary territory of investigation. Through this exploration, establish approaches towards the use of media that enhance the creative potential of the practical research."
+ },
+ {
+   "qualification_name": "Master of Visual Arts",
+   "paper_name": "Thesis",
+   "paper_code": "VSAR999",
+   "efts": 1,
+   "points": 120,
+   "level": 9,
+   "prescriptor": "Undertake self-directed research through art-based practice, and present outcomes that locate the research within its critical, methodological, and other relevant contexts. Students participate in analytical-critical discussion about the research being undertaken within a cooperative/collaborative environment."
+ },
+ {
+   "qualification_name": "Postgraduate Certificate in Cultural and Creative Practice",
+   "paper_name": "Research Methods",
+   "paper_code": "ARDN800",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "An introduction to research methodology and methods. Explores and evaluates models of research, and ethical considerations, appropriate to practice-led research. Provides contextual and theoretical frameworks to allow students to design and undertake independent art, design or cultural and creative research."
+ },
+ {
+   "qualification_name": "Postgraduate Certificate in Cultural and Creative Practice",
+   "paper_name": "Ethics in Research",
+   "paper_code": "ARDN801",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Contexts, methods and the impact of applied ethics in relation to art or design research."
+ },
+ {
+   "qualification_name": "Postgraduate Certificate in Cultural and Creative Practice",
+   "paper_name": "Contextual Review",
+   "paper_code": "ARDN808",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Critically consider perspectives and methods for identifying, situating and focusing knowledge in the fields of cultural and creative production, reception and experience. Students will contextually establish a critical position in relation to their practice."
+ },
+ {
+   "qualification_name": "Postgraduate Certificate in Cultural and Creative Practice",
+   "paper_name": "Soundculture and Sonic Practice",
+   "paper_code": "ARDN809",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Critically explore approaches to aural culture and sonic practices, utilising established and experimental applications of audio technologies. Apply advanced understanding of the influence and effect of sound in the design of soundculture, creative artefacts and Taonga."
+ },
+ {
+   "qualification_name": "Postgraduate Certificate in Cultural and Creative Practice",
+   "paper_name": "Creative Enterprise",
+   "paper_code": "ARDN810",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Critically investigate issues relating to the effective and enterprising operation of organisations in the cultural and creative sectors. Critically apply organisational, business and management methods to the creation of a sustainable cultural and creative practice."
+ },
+ {
+   "qualification_name": "Postgraduate Certificate in Cultural and Creative Practice",
+   "paper_name": "Creative Leadership",
+   "paper_code": "ARDN811",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Critically analyse the frameworks for planning, organising and leading organisations in the cultural and creative sectors. Apply leadership and creative thinking to develop ethically sound implementation strategies for cultural and creative projects."
+ },
+ {
+   "qualification_name": "Postgraduate Certificate in Cultural and Creative Practice",
+   "paper_name": "Mediated Practice",
+   "paper_code": "ARDN812",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Critically investigate immersive and experiential practices and explore their potential to engage people in culturally located linear and nonlinear narrative contexts. Practice-based exploration of a range of mediated approaches to storytelling."
+ },
+ {
+   "qualification_name": "Postgraduate Certificate in Cultural and Creative Practice",
+   "paper_name": "Culture and Sovereignty",
+   "paper_code": "ARDN813",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Critical exploration of the philosophical, ontological and political dimensions of culture and power, and the multiple ways that culture is shaped, influenced or changed by hegemony, ideology and politics. Investigate, through practice, opportunities for the creation of self-determination and sovereignty."
+ },
+ {
+   "qualification_name": "Postgraduate Certificate in Cultural and Creative Practice",
+   "paper_name": "Curatorial Practice",
+   "paper_code": "ARDN814",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Exploration of perspectives and strategies critical in the planning and realisation of curatorial projects. Establish the conditions and strategically develop a blueprint for the creation of a curatorial project."
+ },
+ {
+   "qualification_name": "Postgraduate Certificate in Cultural and Creative Practice",
+   "paper_name": "Kaupapa Maori Media",
+   "paper_code": "TVSP870",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Explore critically the history and impacts of Maori media, with particular emphasis on the role of Maori media in the revitalisation of Maori language and culture."
+ },
+ {
+   "qualification_name": "Postgraduate Certificate in Design",
+   "paper_name": "Research Methods",
+   "paper_code": "ARDN800",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "An introduction to research methodology and methods. Explores and evaluates models of research, and ethical considerations, appropriate to practice-led research. Provides contextual and theoretical frameworks to allow students to design and undertake independent art, design or cultural and creative research."
+ },
+ {
+   "qualification_name": "Postgraduate Certificate in Design",
+   "paper_name": "Ethics in Research",
+   "paper_code": "ARDN801",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Contexts, methods and the impact of applied ethics in relation to art or design research."
+ },
+ {
+   "qualification_name": "Postgraduate Certificate in Design",
+   "paper_name": "Directed Studies Project",
+   "paper_code": "ARDN802",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Student-directed, independent research art or design project with supervision and guidance from faculty."
+ },
+ {
+   "qualification_name": "Postgraduate Certificate in Design",
+   "paper_name": "Reading Paper",
+   "paper_code": "ARDN803",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "A guided readings paper.  Students analyse directed and self-directed discipline theories, concepts and practices, and develop advanced knowledge in an area relevant to their independent art or design research topic."
+ },
+ {
+   "qualification_name": "Postgraduate Certificate in Design",
+   "paper_name": "Collaborative Design",
+   "paper_code": "ARDN804",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Actively engage in design thinking and making as a member of a team.  Contribute to a design project through a multidisciplinary collaborative approach that combines theory and practice."
+ },
+ {
+   "qualification_name": "Postgraduate Certificate in Design",
+   "paper_name": "Coding for Artists and Designers",
+   "paper_code": "ARDN807",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Critically engage in the imaginative potential of generative art, visualizations and computational design. Explore and adapt the creative potential of 'bleeding-edge' technologies in human-computer interaction through artistic expression."
+ },
+ {
+   "qualification_name": "Postgraduate Certificate in Design",
+   "paper_name": "Contextual Review",
+   "paper_code": "ARDN808",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Critically consider perspectives and methods for identifying, situating and focusing knowledge in the fields of cultural and creative production, reception and experience. Students will contextually establish a critical position in relation to their practice."
+ },
+ {
+   "qualification_name": "Postgraduate Certificate in Design",
+   "paper_name": "Design Practice I",
+   "paper_code": "DESN800",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Generate design research through creative practice that explores making processes and contexts, to establish potential networks for reflective enquiry."
+ },
+ {
+   "qualification_name": "Postgraduate Certificate in Design",
+   "paper_name": "Design Practice II",
+   "paper_code": "DESN801",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Establish the viability of a sustained piece of design research. Generate research through creative practice that explores making processes and contexts to focus reflective enquiry."
+ },
+ {
+   "qualification_name": "Postgraduate Certificate in Design",
+   "paper_name": "Design Histories",
+   "paper_code": "DESN803",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Students critically engage with their broader disciplinary context via locating, documenting, analysing and disseminating the work of culturally and professionally significant individuals or companies who have contributed to the historical or contemporary practice of design in New Zealand."
+ },
+ {
+   "qualification_name": "Postgraduate Certificate in Design",
+   "paper_name": "Design For Health and Wellbeing",
+   "paper_code": "DESN806",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Evaluate design approaches, which consider the range of social, economic and environmental issues that impact health and wellbeing. Critically establish the feasibility of targeted design strategies and approaches within the contexts of health and wellbeing."
+ },
+ {
+   "qualification_name": "Postgraduate Certificate in Design",
+   "paper_name": "Game Design Practices",
+   "paper_code": "DESN808",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Critically engage with game theory and the history of game design in order to investigate interactive and immersive game-based technologies. Conduct practice-based research into the creation of game-based digital environments and scenarios, which focus on non-linear storytelling, interaction and experience design."
+ },
+ {
+   "qualification_name": "Postgraduate Certificate in Design",
+   "paper_name": "Virtual Production Practices",
+   "paper_code": "DESN809",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Practice-based exploration of the immersive and narrative potential of virtual production technologies. Explore the interface between human interaction, movement and performance, and virtual production. Investigate innovative approaches and uses of virtual production technologies, such as virtual reality, augmented reality, motion-capture, and interactive gameplay, across art and design based practices."
+ },
+ {
+   "qualification_name": "Postgraduate Certificate in Design",
+   "paper_name": "Strategic Design",
+   "paper_code": "DESN810",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Investigate through integrative and creative design approaches, the complex web of strategic relationships and opportunities existing within the context of business. Critically combine theory and practice to produce creative, strategic actions that highlight key opportunities for organisations."
+ },
+ {
+   "qualification_name": "Postgraduate Certificate in Design",
+   "paper_name": "Design Futures",
+   "paper_code": "DESN812",
+   "efts": 0.125,
+   "points": 15,
+   "level": 8,
+   "prescriptor": "Critically investigate new design practices in contexts, which may include ecological, social, cultural and economic futures. Apply design theory and innovative practices towards speculative ideas production through prototyping objects, experiences and environments for the near and far future."
+ },
+ {
+   "qualification_name": "Postgraduate Diploma in Performance and Media Arts",
+   "paper_name": "Research, Context and Methods",
+   "paper_code": "119101",
+   "efts": 0.25,
+   "points": 30,
+   "level": 9,
+   "prescriptor": "Addresses the interrelationship between practice and theory. Explores through theoretical and practice-based means, contextual and methodological research procedures appropriate to various disciplines that feed performance and media arts, and appropriate to the student's research purposes and contexts. Develops an understanding of the principles, approaches and processes of undertaking research in the field of performance and media arts in conjunction with the Research Project paper."
+ },
+ {
+   "qualification_name": "Postgraduate Diploma in Performance and Media Arts",
+   "paper_name": "Research Project",
+   "paper_code": "119102",
+   "efts": 0.25,
+   "points": 30,
+   "level": 9,
+   "prescriptor": "Practice based research paper that supports individual research interests and creative approaches in the conception, realisation, documentation and development of performance and media arts projects. The emphasis is on independent and collaborative, student-led learning that relates to new forms of contemporary practice and critical enquiry. Process-based discoveries occur in conjunction with the Research, Context and Methods paper and result in a final performative work."
+ },
+ {
+   "qualification_name": "Postgraduate Diploma in Performance and Media Arts",
+   "paper_name": "Space, Image, Sound and Performance",
+   "paper_code": "119103",
+   "efts": 0.125,
+   "points": 15,
+   "level": 9,
+   "prescriptor": "Engages at an advanced level with the interrelationship of space, image, sound and performance through performative and/or installation projects. Students will pursue research, innovation and experimentation in their approaches across a range of media, including moving image and sound. Focuses on advanced performative practices as they relate to a variety of spaces and sites in dance, theatre, gallery and cultural contexts."
+ },
+ {
+   "qualification_name": "Postgraduate Diploma in Performance and Media Arts",
+   "paper_name": "Special Topic A",
+   "paper_code": "119308",
+   "efts": 0.125,
+   "points": 15,
+   "level": 9,
+   "prescriptor": "Provides the opportunity to do further research on a topic of interest and to develop specific focused knowledge and skills within the area of specialisation and relating to the overall programme aims."
+ },
+ {
+   "qualification_name": "Postgraduate Diploma in Performance and Media Arts",
+   "paper_name": "Special Topic B",
+   "paper_code": "119309",
+   "efts": 0.125,
+   "points": 15,
+   "level": 9,
+   "prescriptor": "Provides the opportunity to do further research on an art and design topic of interest and to develop specific focused knowledge and skills within the area of specialisation and relating to the overall programme aims."
+ }
+]

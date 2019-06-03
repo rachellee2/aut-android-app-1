@@ -94,26 +94,36 @@ public class CoursesActivity extends AppCompatActivity {
 
             selectedDepartment = text;
             switch (selectedDepartment){
-                // Load papers for science department
-                case "Science":
-                    jsonFileName = "science.json";
-                    selectedDepartment = "Science";
-                    try {
-                        loadDegree(jsonFileName); // load degree into degreeList
-                    } catch (JSONException e) {
-                        e.printStackTrace();
-                    }
-                    break;
-                // Load papers for engineering department
-                case "Engineering, computer and mathematical sciences":
-                    jsonFileName = "engineering_computer_and_mathematical_sciences.json";
-                    selectedDepartment = "Engineering, computer and mathematical sciences";
-                    try {
-                        loadDegree(jsonFileName); // load degree into degreeList
-                    } catch (JSONException e) {
-                        e.printStackTrace();
-                    }
-                    break;
+                // Load papers for Art department
+//                case "Art":
+//                    jsonFileName = "Art.json";
+//                    selectedDepartment = "Art";
+//                    try {
+//                        loadDegree(jsonFileName); // load degree into degreeList
+//                    } catch (JSONException e) {
+//                        e.printStackTrace();
+//                    }
+//                    break;
+//                // Load papers for Engineering department
+//                case "Engineering, computer and mathematical sciences":
+//                    jsonFileName = "Engineering, computer and mathematical sciences.json";
+//                    selectedDepartment = "Engineering, computer and mathematical sciences";
+//                    try {
+//                        loadDegree(jsonFileName); // load degree into degreeList
+//                    } catch (JSONException e) {
+//                        e.printStackTrace();
+//                    }
+//                    break;
+//                // Load papers for Science department
+//                case "Science":
+//                    jsonFileName = "Science.json";
+//                    selectedDepartment = "Science";
+//                    try {
+//                        loadDegree(jsonFileName); // load degree into degreeList
+//                    } catch (JSONException e) {
+//                        e.printStackTrace();
+//                    }
+//                    break;
                 // If prompt item is selected, disable spinnerDegrees and empty out papers list.
                 case dpmtPrompt:
                     jsonFileName = null;
@@ -122,6 +132,14 @@ public class CoursesActivity extends AppCompatActivity {
                     spinnerDegree.setEnabled(false);
                     setSpinnerDegree();
                     break;
+                default:
+                    jsonFileName = selectedDepartment + ".json";
+                    try {
+                        loadDegree(jsonFileName); // load degree into degreeList
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                break;
             }
             // If either science or engineering department is selected, get all the papers for that specific department and enable spinnerDegree.
             if(selectedDepartment!=null) {
@@ -189,8 +207,9 @@ public class CoursesActivity extends AppCompatActivity {
         selectedDepartment = dpmtPrompt;
         departmentNames = new ArrayList<>();
         departmentNames.add(selectedDepartment);
-        departmentNames.add("Science");
+        departmentNames.add("Art");
         departmentNames.add("Engineering, computer and mathematical sciences");
+        departmentNames.add("Science");
     }
 
     /**
