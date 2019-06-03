@@ -1,106 +1,108 @@
 package com.example.autandroidapp;
 
+import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
-
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
-
+import android.util.Log;
 import android.view.View;
+import android.widget.Toast;
 
-import com.google.android.material.navigation.NavigationView;
-
-import androidx.core.view.GravityCompat;
-import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 
-import android.view.Menu;
-import android.view.MenuItem;
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.GoogleApiAvailability;
 
-public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+//this class includes the activities of all the buttons on the homepage,
+//once the buttons are pressed, the activity will be executed.
+public class MainActivity extends AppCompatActivity {
+    private MediaPlayer main;
+    private static final String TAG = "MainActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
-
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        drawer.addDrawerListener(toggle);
-        toggle.syncState();
-
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-        navigationView.setNavigationItemSelectedListener(this);
-    }
-
-    @Override
-    public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        if (drawer.isDrawerOpen(GravityCompat.START)) {
-            drawer.closeDrawer(GravityCompat.START);
-        } else {
-            super.onBackPressed();
+        if(main == null) //Media players are space intensive so we only want one, create if not already created.
+        {
+            main = MediaPlayer.create(this,R.raw.blop_mark_diangelo);
         }
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
+    //this method includes the activity of the chatbot button on the homepage,
+    //once the chatbot button is pressed, the activity will be executed.
+    public void chatbotActivity(View view) {
+        messagePop();
+        Intent intent = new Intent(this, ChatbotActivity.class);
+        startActivity(intent);
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
+    //this method includes the activity of the courses button on the homepage,
+    //once the courses button is pressed, the activity will be executed.
+    public void coursesActivity(View view) {
+        messagePop();
+        Intent intent = new Intent(this, CoursesActivity.class);
+        startActivity(intent);
+    }
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+    //this method includes the activity of the help button on the homepage,
+    //once the help button is pressed, the activity will be executed.
+    public void helpActivity(View view) {
+        messagePop();
+        Intent intent = new Intent(this, help_button.class);
+        startActivity(intent);
+    }
+
+    //this method includes the activity of the services button on the homepage,
+    //once the services button is pressed, the activity will be executed.
+    public void servicesActivity(View view) {
+        messagePop();
+        Intent intent = new Intent(this, ServicesActivity.class);
+        startActivity(intent);
+    }
+
+    //this method includes the activity of the calender button on the homepage,
+    //once the map button is pressed, if the service is available, the activity will be executed.
+    public void GoogleMapActivity(View view){
+        if(isServiceAvailable()){
+            messagePop();
+            Intent intent = new Intent(this, MapActivity.class);
+            startActivity(intent);
+        }
+    }
+
+    //to play the sound
+    public void messagePop()
+    {
+        getMain().start();
+    }
+
+    //Getter for the  media player
+    public MediaPlayer getMain() {
+        return main;
+    }
+
+    //checks whether the google play services is up to date and available.
+    public boolean isServiceAvailable(){
+        Log.d(TAG,"isServiceAvailable: checking google services verision");
+
+        int available = GoogleApiAvailability.getInstance().isGooglePlayServicesAvailable(MainActivity.this);
+
+        if(available == ConnectionResult.SUCCESS){
+            Log.d(TAG, "isServiccAvailable: Google Play services is working");
             return true;
         }
-
-        return super.onOptionsItemSelected(item);
-    }
-
-    @SuppressWarnings("StatementWithEmptyBody")
-    @Override
-    public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
-        int id = item.getItemId();
-
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
+        else{
+            Toast.makeText(this, "You can't make map requests", Toast. LENGTH_SHORT).show();
         }
-
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
-        return true;
+        return false;
     }
+
+    //this method includes the activity of the timetab;e button on the homepage,
+    //once the timetable button is pressed, the activity will be executed.
+    public void TimetableActivity(View view) {
+        messagePop();
+        Intent intent = new Intent(this, TimetableActivity.class);
+        startActivity(intent);
+    }
+
 }

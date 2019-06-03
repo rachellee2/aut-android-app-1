@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.autandroidapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -8,11 +16,170 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".ThursdayActivity"
+            android:label="@string/thursday"
+            android:parentActivityName=".TimetableActivity"
+            tools:ignore="DuplicateActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.autandroidapp.TimetableActivity" />
+        </activity>
+        <activity android:name=".WednesdayActivity"
+            android:label="@string/wednesday"
+            android:parentActivityName=".TimetableActivity"
+            tools:ignore="DuplicateActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.autandroidapp.TimetableActivity" />
+        </activity>
+        <activity android:name=".TuesdayActivity"
+            android:label="@string/tuesday"
+            android:parentActivityName=".TimetableActivity"
+            tools:ignore="DuplicateActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.autandroidapp.TimetableActivity" />
+        </activity>
+        <activity android:name=".MondayActivity"
+            android:label="@string/monday"
+            android:parentActivityName=".TimetableActivity"
+            tools:ignore="DuplicateActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.autandroidapp.TimetableActivity" />
+        </activity>
+        <activity android:name=".TimetableActivity"
+            android:label="@string/TIMETABLE"
+            android:parentActivityName=".MainActivity"
+            tools:ignore="DuplicateActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.autandroidapp.MainActivity" />
+        </activity>
+        <activity android:name=".FridayActivity"
+            android:label="@string/friday"
+            android:parentActivityName=".TimetableActivity"
+            tools:ignore="DuplicateActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.autandroidapp.TimetableActivity" />
+        </activity>
+        <activity android:name=".AddCourseActivity"
+            android:label="@string/addcourse"
+            android:parentActivityName=".AddCourseActivity"
+            tools:ignore="DuplicateActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.autandroidapp.AddCourseActivity" />
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:name=".MapActivity"
+            android:label="@string/MAPTITLE"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".autcontact_button"
+            android:label="@string/AUTCONTACT"
+            android:parentActivityName=".help_button"
+            tools:ignore="DuplicateActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.autandroidapp.help_button" />
+        </activity>
+        <activity
+            android:name=".contactdev_button"
+            android:label="@string/CONTACTDEV"
+            android:parentActivityName=".help_button"
+            tools:ignore="DuplicateActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.autandroidapp.help_button" />
+        </activity>
+        <activity
+            android:name=".home_button"
+            android:label="@string/home"
+            android:parentActivityName=".MainActivity"
+            tools:ignore="DuplicateActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.autandroidapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".faq_button"
+            android:label="@string/FAQ"
+            android:parentActivityName=".help_button"
+            tools:ignore="DuplicateActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.autandroidapp.help_button" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.aut.ac.nz"
+                    android:pathPattern="/https://www.aut.ac.nz/student-life/graduation"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ServicesActivity"
+            android:label="@string/AUTSERVICES"
+            android:parentActivityName=".MainActivity"
+            tools:ignore="DuplicateActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.autandroidapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".help_button"
+            android:label="@string/HELPTITLE"
+            android:parentActivityName=".MainActivity"
+            tools:ignore="DuplicateActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.autandroidapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ChatbotActivity"
+            android:label="@string/CHATBOTTITLE"
+            android:parentActivityName=".MainActivity"
+            tools:ignore="DuplicateActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.autandroidapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CoursesActivity"
+            android:label="@string/COURSESTITLE"
+            android:parentActivityName=".MainActivity"
+            tools:ignore="DuplicateActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.autandroidapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CoursePapersActivity"
+            android:label="@string/COURSEPAPERS"
+            android:parentActivityName=".CoursesActivity"
+            tools:ignore="DuplicateActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.autandroidapp.CoursesActivity" />
+        </activity>
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

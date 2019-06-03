@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appTheme"
+    android:scrollbars="horizontal"
+    tools:context=".faq_button"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/q1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gen_button_all"
+                android:text="How do I find out about Graduation? "
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/a1"
+                android:autoLink="all"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:textColor="#fff"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="Visit this site to find out more : https://www.aut.ac.nz/student-life/graduation "
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/q2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gen_button_all"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textStyle="bold"
+                android:text="Do I need a ticket for a child? "
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/a2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text=" Young children happy to sit on someone’s lap for the duration of the 2 hour ceremony are not required to have their own ticket."
+                android:visibility="gone"
+                android:textColor="#fff"/>
+
+            <Button
+                android:id="@+id/q3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gen_button_all"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textStyle="bold"
+                android:text="What are the application deadlines for international students living in New Zealand? "
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/a3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="If you are living in New Zealand and hold a current student visa, your application will be processed up to the start of the semester if places are available in the programme."
+                android:textColor="#fff"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/q4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gen_button_all"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textStyle="bold"
+                android:text="How long does it take to get an outcome on an application for international students? "
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/a4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="Assessment period (According to University Admissions Office)
+Application Processing Times:
+
+Complete applications for postgraduate programmes will take approximately –four to six weeks to process.
+
+Complete applications for undergraduate programmes will take approximately –five to seven days to process.
+
+If your application is incomplete (i.e. documents are missing) you will be notified and your application will not be processed any further. Processing will recommence once all the required information has been received and the above timelines will restart."
+                android:textColor="#fff"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/q5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gen_button_all"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textStyle="bold"
+                android:text="I can't pay my fees by the due date. What are my options? "
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/a5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="If you are unable to pay your fees by the due date, you must contact the Student Hub and let us know when you expect your fees to be paid. You will still be at risk of the following AUT services being suspended.
+
+Access to your AUT computer network
+Blackboard, Library services, Student Digital Workspace, Webmail and printing
+If you have received a confirmation letter from StudyLink advising of a date that they will pay your fees to AUT, you do not need to contact the Student Hub.
+
+Invoices and final reminders will still be sent to you as they are automatically generated."
+                android:textColor="#fff"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/q6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gen_button_all"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textStyle="bold"
+                android:text="How do I know when my fees have been paid?"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/a6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="When you have paid your fees in full, you will receive a “Fees zero balance statement” in your Arion correspondence."
+                android:textColor="#fff"
+                android:visibility="gone" />
+            <Button
+                android:id="@+id/q7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gen_button_all"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textStyle="bold"
+                android:text= "How do I apply for a refund for my fees?"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/a7"
+                android:autoLink="all"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="International students and domestic students who have paid their own fees will need to complete a refund form.
+
+If your fees have been paid through StudyLink you are not required to complete a refund form. You can contact the Student Hub to request a refund. The fees will be directly refunded to StudyLink.
+https://www.aut.ac.nz/study/fees-and-scholarships/paying-your-fees/fee-refunds
+"
+                android:textColor="#fff"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/q8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gen_button_all"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textStyle="bold"
+                android:text= "I can't log into Arion. What do I do?"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/a8"
+                android:autoLink="all"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="Please go to https://arion.aut.ac.nz to login with your Student ID number and password.
+If you have forgotten your password, underneath the Sign In button, click on (Forgot Password?), enter your ID number, and you will be emailed a temporary password.
+The temporary password will be sent to the email address you have provided on Arion."
+                android:textColor="#fff"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/q9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gen_button_all"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textStyle="bold"
+                android:text="How do I pay an invoice on Arion?"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/a9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="After logging into your Arion account, you need to select “My Finances” then select “Pay”. Locate and select the unpaid invoice, then click (Proceed), then click (Pay Now). You will be directed to the Payment Express page to make a payment."
+                android:textColor="#fff"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/q10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gen_button_all"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textStyle="bold"
+                android:text="How do I see my timetable?"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/a10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="You can add your timetale to this app under the (timetable) section. Otherwise Log into Arion to find your timetable under 'Academic details'. Alternatively, log into Student Digital Workspace and go to the ‘My Dashboard’ page."
+                android:textColor="#fff"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/q11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gen_button_all"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textStyle="bold"
+                android:text="How do I see my results on Arion?"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/a11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="Click on “My Academic Details” then select “My Results” to view your results. Please note, you will only be able to see your overall grade for a paper through Arion. If you wish to see your individual assignment grades you will need to login to your Blackboard account."
+                android:textColor="#fff"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/q12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gen_button_all"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textStyle="bold"
+                android:text="I have forgotten my Arion login. How can I retrieved it?"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/a12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="Go to Arion and type in your email address (you have used previously) and click “submit” to receive your details via email."
+                android:textColor="#fff"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/q13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gen_button_all"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textStyle="bold"
+                android:text="How do I apply online?"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/a13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="Applying online is easy – just visit the page below and  follow the prompts. Apply online. After completing your online application, you will receive  an email containing your login details for Arion. Arion is AUT’s online student  portal where Admissions and faculty correspond with you. You should check Arion  regularly for updates on your application."
+                android:textColor="#fff"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/q14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gen_button_all"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textStyle="bold"
+                android:text="How do I check my application status?"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/a14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="You can check the status of your application via your Arion account by logging into your account and selecting the (Correspondence) tab. Alternatively you can check the status of your application by selecting (Academic details)  >>> (Programme Information)."
+                android:textColor="#fff"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/q15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gen_button_all"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textStyle="bold"
+                android:text="What do I need to submit for my application?"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/a15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="The Admissions team will generally advise you through your Arion correspondence what documents you will need to submit to support your application. Login to your Arion account."
+                android:textColor="#fff"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/q16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gen_button_all"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textStyle="bold"
+                android:text="How do I certify my documents?"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/a16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="Details about certifying your documents will be included in your Arion correspondence."
+                android:textColor="#fff"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/q17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="When do I receive my ID?"
+                android:background="@drawable/gen_button_all"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/a17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="A student identification card will be issued to you when:
+We have received your photo
+Your enrolment is complete and you are confirmed into the programme
+You have been invoiced for fees
+The card will be posted to the address that you have nominated as a mailing address, so check that your postal address is correct in Arion."
+                android:textColor="#fff"
+                android:visibility="gone" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
